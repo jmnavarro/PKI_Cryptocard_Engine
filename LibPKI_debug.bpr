@@ -1,0 +1,202 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value=".\lib\LibPKI_Debug.lib"/>
+    <OBJFILES value="obj_debug\Base64.obj obj_debug\ConversorDatos.obj 
+      obj_debug\BufferDinamico.obj obj_debug\Firmable.obj obj_debug\Resumen.obj 
+      obj_debug\Firma.obj obj_debug\FirmaDetached.obj obj_debug\Tarjeta.obj 
+      obj_debug\TarjetaCAPI.obj obj_debug\TarjetaCAPICeres.obj 
+      obj_debug\TarjetaCAPIeT.obj obj_debug\TarjetaCAPISiemens.obj 
+      obj_debug\TarjetaCAPIStarcos.obj obj_debug\TarjetaCL.obj 
+      obj_debug\TarjetaCLCeres.obj obj_debug\TarjetaCLSiemens.obj 
+      obj_debug\TarjetaCLStarcos.obj obj_debug\TarjetaBuilder.obj 
+      obj_debug\AlmacenCertificado.obj obj_debug\AlmacenCertificadoCAPI.obj 
+      obj_debug\AlmacenCertificadoCL.obj obj_debug\AlmacenCertificadoBuilder.obj 
+      obj_debug\Certificado.obj obj_debug\CertCAPI.obj obj_debug\CertCL.obj 
+      obj_debug\ValidacionCertificado.obj 
+      obj_debug\ValidacionCertificadoLocal.obj 
+      obj_debug\ValidacionCertificadoCAPI.obj 
+      obj_debug\ValidacionCertificadoCL.obj obj_debug\Firmador.obj 
+      obj_debug\FirmadorCAPI.obj obj_debug\FirmadorCL.obj 
+      obj_debug\cryptLibAPI.obj"/>
+    <RESFILES value=""/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES)"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value=""/>
+    <PACKAGES value=""/>
+    <PATHCPP value=".;src"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <LINKER value="TLib"/>
+    <USERDEFINES value="_DEBUG"/>
+    <SYSDEFINES value="NO_STRICT;_RTLDLL"/>
+    <MAINSOURCE value="LibPKI_debug.bpf"/>
+    <INCLUDEPATH value="pruebas\src;&quot;C:\Archivos de programa\Borland\CBuilder6\Projects&quot;;C:\CBuilder6\Projects;src;$(BCB)\include;$(BCB)\include\vcl"/>
+    <LIBPATH value="pruebas\src;&quot;C:\Archivos de programa\Borland\CBuilder6\Projects&quot;;C:\CBuilder6\Projects;src;$(BCB)\lib;$(BCB)\lib\obj;$(BCB)\lib\psdk"/>
+    <WARNINGS value="-w-par"/>
+    <LISTFILE value=""/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-Ipruebas\src -I&quot;C:\Archivos de programa\Borland\CBuilder6\Projects&quot; 
+      -IC:\CBuilder6\Projects -Isrc -I$(BCB)\include -I$(BCB)\include\vcl 
+      -src_suffix cpp -D_DEBUG -boa"/>
+    <CFLAG1 value="-vGc -vGt -vGd -Od -Q -Vx -Ve -X- -r- -a2 -6 -b- -k -y -v -vi- -c -tW -tWM"/>
+    <PFLAGS value="-N2.\obj_debug -N0.\obj_debug -$YD -$W -$O- -$A8 -v -JPHNE -M"/>
+    <AFLAGS value="/mx /w2 /zi"/>
+    <LFLAGS value="/P256"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="$(OBJFILES)"/>
+    <ALLLIB value="cg32.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="LibPKI_debug.bpf" FORMNAME="" UNITNAME="LibPKI_debug" CONTAINERID="BPF" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="src\Base64.cpp" FORMNAME="" UNITNAME="Base64" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="src\ConversorDatos.cpp" FORMNAME="" UNITNAME="ConversorDatos.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="src\BufferDinamico.cpp" FORMNAME="" UNITNAME="BufferDinamico.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="src\Firmable.cpp" FORMNAME="" UNITNAME="Firmable.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="src\Resumen.cpp" FORMNAME="" UNITNAME="Resumen.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="src\Firma.cpp" FORMNAME="" UNITNAME="Firma.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="src\FirmaDetached.cpp" FORMNAME="" UNITNAME="FirmaDetached" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="src\Tarjeta.cpp" FORMNAME="" UNITNAME="Tarjeta" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="src\TarjetaCAPI.cpp" FORMNAME="" UNITNAME="TarjetaCAPI" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="src\TarjetaCAPICeres.cpp" FORMNAME="" UNITNAME="TarjetaCAPICeres" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="src\TarjetaCAPIeT.cpp" FORMNAME="" UNITNAME="TarjetaCAPIeT" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="src\TarjetaCAPISiemens.cpp" FORMNAME="" UNITNAME="TarjetaCAPISiemens" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="src\TarjetaCAPIStarcos.cpp" FORMNAME="" UNITNAME="TarjetaCAPIStarcos" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="src\TarjetaCL.cpp" FORMNAME="" UNITNAME="TarjetaCL.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="src\TarjetaCLCeres.cpp" FORMNAME="" UNITNAME="TarjetaCLCeres.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="src\TarjetaCLSiemens.cpp" FORMNAME="" UNITNAME="TarjetaCLSiemens" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="src\TarjetaCLStarcos.cpp" FORMNAME="" UNITNAME="TarjetaCLStarcos" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="src\TarjetaBuilder.cpp" FORMNAME="" UNITNAME="TarjetaBuilder" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="src\AlmacenCertificado.cpp" FORMNAME="" UNITNAME="AlmacenCertificado.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="src\AlmacenCertificadoCAPI.cpp" FORMNAME="" UNITNAME="AlmacenCertificadoCAPI.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="src\AlmacenCertificadoCL.cpp" FORMNAME="" UNITNAME="AlmacenCertificadoCL.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="src\AlmacenCertificadoBuilder.cpp" FORMNAME="" UNITNAME="AlmacenCertificadoBuilder.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="src\Certificado.cpp" FORMNAME="" UNITNAME="Certificado.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="src\CertCAPI.cpp" FORMNAME="" UNITNAME="CertCAPI.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="src\CertCL.cpp" FORMNAME="" UNITNAME="CertCL" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="src\ValidacionCertificado.cpp" FORMNAME="" UNITNAME="ValidacionCertificado.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="src\ValidacionCertificadoLocal.cpp" FORMNAME="" UNITNAME="ValidacionCertificadoLocal.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="src\ValidacionCertificadoCAPI.cpp" FORMNAME="" UNITNAME="ValidacionCertificadoCAPI.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="src\ValidacionCertificadoCL.cpp" FORMNAME="" UNITNAME="ValidacionCertificadoCL" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="src\Firmador.cpp" FORMNAME="" UNITNAME="Firmador.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="src\FirmadorCAPI.cpp" FORMNAME="" UNITNAME="FirmadorCAPI" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="src\FirmadorCL.cpp" FORMNAME="" UNITNAME="FirmadorCL" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="src\cryptLibAPI.cpp" FORMNAME="" UNITNAME="cryptLibAPI.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=0
+AutoIncBuild=0
+MajorVer=1
+MinorVer=0
+Release=0
+Build=0
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=3082
+CodePage=1252
+
+[Version Info Keys]
+CompanyName=
+FileDescription=
+FileVersion=1.0.0.0
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=1.0.0.0
+Comments=
+
+[HistoryLists\hlIncludePath]
+Count=5
+Item0=C:\CBuilder6\Projects;src;$(BCB)\include;$(BCB)\include\vcl
+Item1=src;$(BCB)\include;$(BCB)\include\vcl
+Item2=$(BCB)\include;$(BCB)\include\vcl
+Item3=$(BCB)\include
+Item4=$(BCB)\include;
+
+[HistoryLists\hlLibraryPath]
+Count=8
+Item0=C:\CBuilder6\Projects;src;$(BCB)\lib;$(BCB)\lib\obj;$(BCB)\lib\psdk
+Item1=src;$(BCB)\lib;$(BCB)\lib\obj;$(BCB)\lib\psdk
+Item2=C:\CBuilder6\Projects;src;$(BCB)\lib;$(BCB)\lib\obj;$(BCB)\lib\psdk;..\LibUtils\lib
+Item3=src;$(BCB)\lib;$(BCB)\lib\obj;$(BCB)\lib\psdk;..\LibUtils\lib
+Item4=$(BCB)\lib;$(BCB)\lib\obj;$(BCB)\lib\psdk;..\LibUtils\lib
+Item5=C:\CBuilder6\Projects;src;$(BCB)\lib\obj;$(BCB)\lib
+Item6=src;$(BCB)\lib\obj;$(BCB)\lib
+Item7=$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=1
+Item0=$(BCB)\source\vcl
+
+[HistoryLists\hlConditionals]
+Count=3
+Item0=_DEBUG
+Item1=_DEBUG;LIBPKI_BUILDING
+Item2=_DEBUG;LIBPKI_BUILDING
+
+[HistoryLists\hlIntOutputDir]
+Count=1
+Item0=.\obj_debug
+
+[HistoryLists\hlFinalOutputDir]
+Count=3
+Item0=.\lib\
+Item1=.\bin\
+Item2=.\bin
+
+[HistoryLists\hlTlibPageSize]
+Count=2
+Item0=0x0100
+Item1=0x0010
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+LinkCGLIB=1
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+
+[Language]
+ActiveLang=
+ProjectLang=
+RootDir=
+  </IDEOPTIONS>
+</PROJECT>

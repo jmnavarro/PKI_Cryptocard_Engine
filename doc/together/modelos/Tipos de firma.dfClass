@@ -1,0 +1,52 @@
+package idwfdddxfosrt9dxfqnis5;
+
+/**
+@version 2.0
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:cpp#Class#Firma:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference {
+}/**
+@__ref <oiref:cpp#Class#FirmaAttached:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference9 {
+}/**
+@__ref <oiref:cpp#Class#FirmaDetached:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference10 {
+}/**
+@__ref <oiref:cpp#Class#FirmaXML:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference11 {
+}}/**
+
+@__tags
+@shapeType ClassDiagram 
+*/
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions <oigroup:<oiref:cpp#Extends#FirmaAttached#Firma:oiref>=290,265,290,230,177,230,177,195:oigroup>
+<oigroup:<oiref:cpp#Extends#FirmaDetached#Firma:oiref>=64,265,64,230,177,230,177,195:oigroup>
+<oigroup:<oiref:cpp#Extends#FirmaXML#Firma:oiref>=178,265,178,230,177,230,177,195:oigroup>
+<oigroup:<oiref:cpp#Class#Firma:oiref>=129,10,97,185,1:oigroup>
+<oigroup:<oiref:cpp#Class#FirmaAttached:oiref>=238,265,105,95,1:oigroup>
+<oigroup:<oiref:cpp#Class#FirmaDetached:oiref>=10,265,108,95,1:oigroup>
+<oigroup:<oiref:cpp#Class#FirmaXML:oiref>=138,265,80,95,1:oigroup> 
+*/
+class __positions {
+}

@@ -1,0 +1,3 @@
+caducado.p12	-> 1111
+revocado.p12	-> 17305029
+valido.p12	-> 09998893

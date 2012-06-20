@@ -1,0 +1,71 @@
+package idefbqdxfosrt9dxfszqpb;
+
+/**
+@version 2.0
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:cpp#Class#ValidacionCertificado:oiref><oihard>
+@__modelType reference
+@__imported
+@hideAttributes 
+*/
+class reference {
+}/**
+@__ref <oiref:cpp#Class#ValidacionCertificadoCAPI:oiref><oihard>
+@__modelType reference
+@__imported
+@hideAttributes 
+*/
+class reference21 {
+}/**
+@__ref <oiref:cpp#Class#ValidacionCertificadoLocal:oiref><oihard>
+@__modelType reference
+@__imported
+@hideAttributes 
+*/
+class reference22 {
+}/**
+@__ref <oiref:cpp#Class#ValidacionCertificadoOnline:oiref><oihard>
+@__modelType reference
+@__imported
+@hideAttributes 
+*/
+class reference23 {
+}/**
+@__ref <oiref:cpp#Class#Almacen:oiref><oihard>
+@__modelType reference
+@__imported
+@hideAttributes
+@__hiddenMember <oiref:cpp#Member#Almacen#loadCertificado#(##)#:oiref>
+@__hiddenMember <oiref:cpp#Member#Almacen#close#(##)#:oiref>
+@__hiddenMember <oiref:cpp#Member#Almacen#open#(##)#:oiref> 
+*/
+class reference24 {
+}}/**
+
+@__tags
+@shapeType ClassDiagram 
+*/
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions <oigroup:<oiref:cpp#Member#ValidacionCertificadoCAPI#estaCaducado#(##)#:oiref>=6,335,111,15,1:oigroup>
+<oigroup:<oiref:cpp#Class#ValidacionCertificado:oiref>=150,10,144,85,1:oigroup>
+<oigroup:<oiref:cpp#Extends#ValidacionCertificadoOnline#ValidacionCertificado:oiref>=354,150,354,130,230,130,230,95:oigroup>
+<oigroup:<oiref:cpp#Extends#ValidacionCertificadoLocal#ValidacionCertificado:oiref>=100,150,100,130,230,130,230,95:oigroup>
+<oigroup:<oiref:cpp#Class#Almacen:oiref>=370,10,148,70,1:oigroup>
+<oigroup:<oiref:cpp#Class#ValidacionCertificadoOnline:oiref>=260,150,188,85,1:oigroup>
+<oigroup:MemberLink#<oiref:cpp#Member#Almacen#lnkRevocacion:oiref>=370,45,294,45:oigroup>
+<oigroup:<oiref:cpp#Class#ValidacionCertificadoLocal:oiref>=10,150,181,70,1:oigroup>
+<oigroup:<oiref:cpp#Member#ValidacionCertificadoLocal#estaCaducado#(##)#:oiref>=10,220,111,15,1:oigroup>
+<oigroup:<oiref:cpp#Extends#ValidacionCertificadoCAPI#ValidacionCertificadoLocal:oiref>=99,260,99,220:oigroup>
+<oigroup:<oiref:cpp#Member#ValidacionCertificadoOnline#estaCaducado#(##)#:oiref>=148,217,89,15,1:oigroup>
+<oigroup:<oiref:cpp#Class#ValidacionCertificadoCAPI:oiref>=10,260,178,85,1:oigroup>
+*/
+class __positions {
+}

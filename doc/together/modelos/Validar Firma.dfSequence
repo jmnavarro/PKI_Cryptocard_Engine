@@ -1,0 +1,204 @@
+package id2yktfdn5mlnkddn5pvr68;
+
+/**
+@version 2.0
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:design#Class#id2yktfdn5mlnkddn5pvr68.node:oiref><oihard>
+@__modelType reference 
+*/
+class reference {
+}/**
+@__ref <oiref:design#Class#id2yktfdn5mlnkddn5pvr68.node21:oiref><oihard>
+@__modelType reference 
+*/
+class reference22 {
+}/**
+@__ref <oiref:design#Class#id2yktfdn5mlnkddn5pvr68.node29:oiref><oihard>
+@__modelType reference 
+*/
+class reference30 {
+}/**
+@__ref <oiref:design#Class#id2yktfdn5mlnkddn5pvr68.node3:oiref><oihard>
+@__modelType reference 
+*/
+class reference4 {
+}/**
+@__ref <oiref:design#Class#id2yktfdn5mlnkddn5pvr68.node6:oiref><oihard>
+@__modelType reference 
+*/
+class reference7 {
+}}/**
+
+@__tags
+@shapeType SequenceDiagram 
+*/
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions <oigroup:<oiref:design#Class#id2yktfdn5mlnkddn5pvr68.node:oiref>=30,30,90,330,1:oigroup>
+<oigroup:<oiref:design#Class#id2yktfdn5mlnkddn5pvr68.node3:oiref>=143,30,90,330,1:oigroup>
+<oigroup:<oiref:design#Class#id2yktfdn5mlnkddn5pvr68.node29.node46:oiref>=408,250,14,20,1:oigroup>
+<oigroup:<oiref:design#Class#id2yktfdn5mlnkddn5pvr68.node3.node10:oiref>=190,190,14,20,1:oigroup>
+<oigroup:<oiref:design#Class#id2yktfdn5mlnkddn5pvr68.node3.link9:oiref>=195,190,195,184,235,184,235,196,204,196:oigroup>
+<oigroup:<oiref:design#Class#id2yktfdn5mlnkddn5pvr68.node29:oiref>=370,30,90,330,1:oigroup>
+<oigroup:Composite#$messageInplaceEditing#<oiref:design#Class#id2yktfdn5mlnkddn5pvr68.node3.link9:oiref>=208,196,191,15,0:oigroup>
+<oigroup:<oiref:design#Class#id2yktfdn5mlnkddn5pvr68.node6:oiref>=616,30,90,330,1:oigroup>
+<oigroup:<oiref:design#Class#id2yktfdn5mlnkddn5pvr68.node3.link7:oiref>=:oigroup>
+<oigroup:<oiref:design#Class#id2yktfdn5mlnkddn5pvr68.node.link5:oiref>=:oigroup>
+<oigroup:<oiref:design#Class#id2yktfdn5mlnkddn5pvr68.node.link27:oiref>=82,160,181,160:oigroup>
+<oigroup:Composite#$messageInplaceEditing#<oiref:design#Class#id2yktfdn5mlnkddn5pvr68.node3.link45:oiref>=199,231,219,15,0:oigroup>
+<oigroup:<oiref:design#Class#id2yktfdn5mlnkddn5pvr68.node21:oiref>=503,30,90,330,1:oigroup>
+<oigroup:Composite#$messageInplaceEditing#<oiref:design#Class#id2yktfdn5mlnkddn5pvr68.node.link27:oiref>=86,141,161,15,0:oigroup>
+<oigroup:<oiref:design#Class#id2yktfdn5mlnkddn5pvr68.node3.link6:oiref>=:oigroup>
+<oigroup:<oiref:design#Class#id2yktfdn5mlnkddn5pvr68.node3.node28:oiref>=181,160,14,120,0:oigroup>
+<oigroup:<oiref:design#Class#id2yktfdn5mlnkddn5pvr68.node3.link45:oiref>=195,250,408,250:oigroup>
+
+
+
+
+
+
+
+
+
+*/
+class __positions {
+}/**
+@shapeType Object
+@__modelType node
+@name Actor
+@stereotype actor 
+*/
+class node {
+/**
+@shapeType MessageLink
+@__modelType link
+@__ref <oiref:design#Class#id2yktfdn5mlnkddn5pvr68.node3:oiref><oihard>
+@sendingInstant 160
+@processingDuration 120
+@sequenceNumber 1
+@diagram_uniqe_name <oiref:design#Class#id2yktfdn5mlnkddn5pvr68.diagram:oiref>
+@operation <oiref:cpp#Member#Firmador#validar#(#Firmable&#Firma&#Certificado&#)#:oiref> 
+@operationNameAsText 'validar(Firmable &):bool'
+@minProcessingDuration 40
+@arguments doc, firma, cert
+*/
+class link27 {
+}/**
+@shapeType CollaborationLink
+@__modelType link
+@__ref <oiref:design#Class#id2yktfdn5mlnkddn5pvr68.node3:oiref><oihard> 
+*/
+class link5 {
+}}/**
+@shapeType Object
+@__modelType node
+@name doc*/
+class node21 {
+/**
+@shapeType DependencyLink
+@__modelType link
+@__ref <oiref:cpp#Class#Firmable:oiref><oihard>
+*/
+class link {
+}}/**
+@shapeType Object
+@__modelType node
+@name firma*/
+class node29 {
+/**
+@shapeType DependencyLink
+@__modelType link
+@__ref <oiref:cpp#Class#Firma:oiref><oihard>
+*/
+class link {
+}/**
+@shapeType Activation
+@__modelType node
+@name Activation2
+@activationMessage <oiref:design#Class#id2yktfdn5mlnkddn5pvr68.node3.link45:oiref> 
+*/
+class node46 {
+}}/**
+@shapeType Object
+@__modelType node
+@name 
+*/
+class node3 {
+/**
+@shapeType DependencyLink
+@__modelType link
+@__ref <oiref:cpp#Class#Firmador:oiref><oihard> 
+*/
+class link {
+}/**
+@shapeType Activation
+@__modelType node
+@name Activation4
+@activationMessage <oiref:design#Class#id2yktfdn5mlnkddn5pvr68.node.link27:oiref> 
+@diagram_uniqe_name <oiref:design#Class#id2yktfdn5mlnkddn5pvr68.diagram:oiref>
+*/
+class node28 {
+}/**
+@shapeType CollaborationLink
+@__modelType link
+@__ref <oiref:design#Class#id2yktfdn5mlnkddn5pvr68.node29:oiref><oihard> 
+*/
+class link6 {
+}/**
+@shapeType MessageLink
+@__modelType link
+@__ref <oiref:design#Class#id2yktfdn5mlnkddn5pvr68.node29:oiref><oihard>
+@sendingInstant 250
+@processingDuration 20 
+@sequenceNumber 1.2
+@diagram_uniqe_name <oiref:design#Class#id2yktfdn5mlnkddn5pvr68.diagram:oiref>
+@label comparar "firma" con "firmaOK"
+*/
+class link45 {
+}/**
+@shapeType CollaborationLink
+@__modelType link
+@__ref <oiref:design#Class#id2yktfdn5mlnkddn5pvr68.node3:oiref><oihard> 
+*/
+class link7 {
+}/**
+@shapeType MessageLink
+@__modelType link
+@__ref <oiref:design#Class#id2yktfdn5mlnkddn5pvr68.node3:oiref><oihard>
+@sendingInstant 190
+@processingDuration 20 
+@sequenceNumber 1.1
+@diagram_uniqe_name <oiref:design#Class#id2yktfdn5mlnkddn5pvr68.diagram:oiref>
+@operation <oiref:cpp#Member#Firmador#firmar#(#Firmable&#Certificado&#)#:oiref>
+@operationNameAsText 'firmar(Firmable &,Certificado &):Firma *'
+@arguments doc, cert
+@return firmaOK
+@minProcessingDuration 20
+*/
+class link9 {
+}/**
+@shapeType Activation
+@__modelType node
+@name Activation3
+@activationMessage <oiref:design#Class#id2yktfdn5mlnkddn5pvr68.node3.link9:oiref> */
+class node10 {
+}}/**
+@shapeType Object
+@__modelType node
+@name cert 
+*/
+class node6 {
+/**
+@shapeType DependencyLink
+@__modelType link
+@__ref <oiref:cpp#Class#Certificado:oiref><oihard> 
+*/
+class link {
+}}

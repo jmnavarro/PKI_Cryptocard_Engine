@@ -1,0 +1,166 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value=".\exe\EjemploFirma.exe"/>
+    <OBJFILES value="obj_debug\EjemploFirma.obj obj_debug\main.obj"/>
+    <RESFILES value="EjemploFirma.res"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) src\main.dfm"/>
+    <LIBFILES value="..\..\LibUtils\lib\LibUtils_Debug.lib ..\lib\LibPKI_debug.lib 
+      C:\CBuilder6\Lib\Psdk\crypt32.lib"/>
+    <LIBRARIES value="bcbie.lib"/>
+    <SPARELIBS value="vcl.lib rtl.lib bcbie.lib"/>
+    <PACKAGES value="vcl.bpi rtl.bpi"/>
+    <PATHCPP value=".;src"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value="_DEBUG"/>
+    <SYSDEFINES value="NO_STRICT;_NO_VCL;_RTLDLL;USEPACKAGES"/>
+    <MAINSOURCE value="EjemploFirma.cpp"/>
+    <INCLUDEPATH value="src;$(BCB)\include;$(BCB)\include\vcl"/>
+    <LIBPATH value="c:\cbuilder6\lib\debug;src;$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\lib\psdk"/>
+    <WARNINGS value="-w-par"/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-Isrc -I$(BCB)\include -I$(BCB)\include\vcl -src_suffix cpp -D_DEBUG -boa"/>
+    <CFLAG1 value="-vGc -vGt -vGd -Od -Q -Vx -Ve -X- -r- -a2 -6 -b- -k -y -v -vi- -tWC -tWM -c"/>
+    <PFLAGS value="-N2.\obj_debug -N0.\obj_debug -$Y+ -$W -$R -$Q -$O- -$A8 -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zi"/>
+    <LFLAGS value="-I.\obj_debug -D&quot;&quot; -aa -Tpe -x -Gn -Gi -v"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj $(PACKAGES) $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="cg32.lib $(LIBFILES) $(LIBRARIES) import32.lib cw32mti.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="EjemploFirma.res" FORMNAME="" UNITNAME="EjemploFirma.res" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\LibUtils\lib\LibUtils_Debug.lib" FORMNAME="" UNITNAME="LibUtils_Debug.lib" CONTAINERID="LibTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\lib\LibPKI_debug.lib" FORMNAME="" UNITNAME="LibPKI_debug.lib" CONTAINERID="LibTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="C:\CBuilder6\Lib\Psdk\crypt32.lib" FORMNAME="" UNITNAME="crypt32.lib" CONTAINERID="LibTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="EjemploFirma.cpp" FORMNAME="" UNITNAME="EjemploFirma" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="src\main.cpp" FORMNAME="MainForm" UNITNAME="main" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=0
+AutoIncBuild=0
+MajorVer=1
+MinorVer=0
+Release=0
+Build=0
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=3082
+CodePage=1252
+
+[Version Info Keys]
+CompanyName=
+FileDescription=
+FileVersion=1.0.0.0
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=1.0.0.0
+Comments=
+
+[Excluded Packages]
+Bin\Release\OcxSuperGraf_BPK.bpl=OcxSuperGraf_BPK
+
+[HistoryLists\hlIncludePath]
+Count=9
+Item0=src;$(BCB)\include;$(BCB)\include\vcl
+Item1=src;ejemplos;$(BCB)\include;$(BCB)\include\vcl
+Item2=ejemplos;$(BCB)\include;$(BCB)\include\vcl
+Item3=$(BCB)\include;$(BCB)\include\vcl
+Item4=C:\CBuilder6\Projects;Ejemplos;$(BCB)\include;$(BCB)\include\vcl
+Item5=Ejemplos;C:\src\LibCorreo\Ejemplos;$(BCB)\include;$(BCB)\include\vcl
+Item6=C:\src\LibCorreo\Ejemplos;$(BCB)\include;$(BCB)\include\vcl
+Item7=C:\CBuilder6\Projects;C:\src\LibCorreo\Ejemplos;C:\src\LibCorreo;$(BCB)\include;$(BCB)\include\vcl
+Item8=C:\src\LibCorreo;$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=10
+Item0=$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\lib\psdk
+Item1=src;c:\cbuilder6\lib\debug;ejemplos;$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\lib\psdk
+Item2=c:\cbuilder6\lib\debug;ejemplos;$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\lib\psdk
+Item3=Ejemplos;$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\lib\psdk
+Item4=c:\cbuilder6\lib\debug;C:\CBuilder6\Projects;Ejemplos;$(BCB)\lib\obj;$(BCB)\lib
+Item5=C:\CBuilder6\Projects;Ejemplos;$(BCB)\lib\obj;$(BCB)\lib
+Item6=Ejemplos;$(BCB)\lib\obj;$(BCB)\lib
+Item7=$(BCB)\lib\obj;$(BCB)\lib
+Item8=C:\CBuilder6\Projects;C:\src\LibCorreo\Ejemplos;C:\src\LibCorreo;$(BCB)\lib\obj;$(BCB)\lib
+Item9=C:\src\LibCorreo;$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=1
+Item0=$(BCB)\source\vcl
+
+[HistoryLists\hlConditionals]
+Count=1
+Item0=_DEBUG
+
+[HistoryLists\hlIntOutputDir]
+Count=2
+Item0=.\obj_debug
+Item1=.\ejemplos\obj
+
+[HistoryLists\hlFinalOutputDir]
+Count=5
+Item0=.\exe\
+Item1=.\bin\
+Item2=.\bin
+Item3=.\ejemplos\exe\
+Item4=.\ejemplos\exe
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+LinkCGLIB=1
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+
+[Language]
+ActiveLang=
+ProjectLang=
+RootDir=
+  </IDEOPTIONS>
+</PROJECT>

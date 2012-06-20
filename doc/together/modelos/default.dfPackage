@@ -1,0 +1,299 @@
+package ids2dxdh1r9wsjdh1rejlk;
+
+/**
+@version 2.0
+@physicalPackage
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:cpp#Class#Documento:oiref><oihard>
+@__modelType reference 
+@hideAttributes
+*/
+class reference3 {
+}/**
+@__ref <oiref:cpp#Class#Operacion:oiref><oihard>
+@__modelType reference 
+@hideAttributes
+*/
+class reference4 {
+}/**
+@__ref <oiref:cpp#Class#FirmadorCAPI:oiref><oihard>
+@__modelType reference 
+@hideAttributes*/
+class reference5 {
+}/**
+@__ref <oiref:cpp#Class#ConversorDatos:oiref><oihard>
+@__modelType reference 
+@hideAttributes
+*/
+class reference35 {
+}/**
+@__ref <oiref:cpp#Class#ISerializable:oiref><oihard>
+@__modelType reference 
+@hideAttributes
+@backgroundColor 240,240,240
+*/
+class reference15 {
+}/**
+@__ref <oiref:cpp#Class#Firmable:oiref><oihard>
+@__modelType reference 
+@backgroundColor 255,255,245
+@hideAttributes*/
+class reference34 {
+}/**
+@__ref <oiref:cpp#Class#Firmador:oiref><oihard>
+@__modelType reference 
+@hideAttributes
+@backgroundColor 255,255,245
+*/
+class reference38 {
+}/**
+@__ref <oiref:cpp#Class#Firma:oiref><oihard>
+@__modelType reference 
+@backgroundColor 255,255,245
+@hideAttributes
+@__hiddenMember <oiref:cpp#Member#Firma#setData#(#BYTE*#DWORD#)#:oiref>*/
+class reference41 {
+}/**
+@__ref <oiref:cpp#Class#IPersistente:oiref><oihard>
+@__modelType reference
+@backgroundColor 240,240,240
+@hideAttributes*/
+class reference47 {
+}/**
+@__ref <oiref:design#Class#ids2dxdh1r9wsjdh1rejlk.node:oiref><oihard>
+@__modelType reference 
+*/
+class reference12 {
+}/**
+@__ref <oiref:cpp#Class#BufferDinamico:oiref><oihard>
+@__modelType reference 
+*/
+class reference1 {
+}/**
+@__ref <oiref:cpp#Class#Resumen:oiref><oihard>
+@__modelType reference 
+@backgroundColor 255,255,245
+@hideAttributes
+@hideOperations
+*/
+class reference {
+}/**
+@__ref <oiref:cpp#Class#Certificado:oiref><oihard>
+@__modelType reference 
+@hideOperations*/
+class reference2 {
+}/**
+@__ref <oiref:cpp#Class#Almacen:oiref><oihard>
+@__modelType reference */
+class reference6 {
+}/**
+@__ref <oiref:cpp#Class#AlmacenCAPI:oiref><oihard>
+@__modelType reference 
+*/
+class reference10 {
+}/**
+@__ref <oiref:cpp#Class#FirmaXML:oiref><oihard>
+@__modelType reference 
+@hideAttributes*/
+class reference7 {
+}/**
+@__ref <oiref:cpp#Class#FirmaDetached:oiref><oihard>
+@__modelType reference 
+@hideAttributes*/
+class reference9 {
+}/**
+@__ref <oiref:cpp#Class#FirmaAttached:oiref><oihard>
+@__modelType reference
+@hideAttributes*/
+class reference11 {
+}/**
+@__ref <oiref:cpp#Class#ValidacionCertificado:oiref><oihard>
+@__modelType reference 
+@hideAttributes
+*/
+class reference8 {
+}/**
+@__ref <oiref:cpp#Class#ValidacionCertificadoOnline:oiref><oihard>
+@__modelType reference 
+@hideAttributes
+*/
+class reference13 {
+}/**
+@__ref <oiref:cpp#Class#ValidacionCertificadoLocal:oiref><oihard>
+@__modelType reference 
+@hideAttributes
+*/
+class reference14 {
+}/**
+@__ref <oiref:cpp#Class#ValidacionCertificadoCAPI:oiref><oihard>
+@__modelType reference 
+@hideAttributes
+*/
+class reference16 {
+}/**
+@__ref <oiref:cpp#Class#CertCAPI:oiref><oihard>
+@__modelType reference 
+@hideOperations
+*/
+class reference17 {
+}/**
+@__ref <oiref:cpp#Class#FactoryPKI:oiref><oihard>
+@__modelType reference 
+@__hidden
+*/
+class reference18 {
+}/**
+@__ref <oiref:cpp#Class#FactoryCAPI:oiref><oihard>
+@__modelType reference 
+@__hidden
+*/
+class reference20 {
+}/**
+@__ref <oiref:cpp#Class#Tarjeta:oiref><oihard>
+@__modelType reference 
+@backgroundColor 255,255,245*/
+class reference26 {
+}/**
+@__ref <oiref:cpp#Class#TarjetaCAPI:oiref><oihard>
+@__modelType reference 
+@__hidden
+*/
+class reference19 {
+}}/**
+@__tags
+@shapeType ClassDiagram 
+*/
+class __tags {
+}/**
+@__options option.links = Direct
+option.showprintgrid = true
+option.diagram.orientedLinkLabels = true 
+*/
+class __options {
+}/**
+@__positions 
+
+
+
+<oigroup:<oiref:cpp#Member#Firmador#calcularOriginal#(#const BufferDinamico&#Firma&#BufferDinamico&#)#:oiref>=23,269,96,15,1:oigroup>
+<oigroup:<oiref:cpp#Member#Firmador#firmar#(#Firmable&#Certificado&#)#:oiref>=20,120,107,15,1:oigroup>
+<oigroup:<oiref:cpp#Member#AlmacenCAPI#loadCertificado#(##)#:oiref>=220,780,87,15,1:oigroup>
+<oigroup:<oiref:cpp#Member#Firma#saveToFile#(#string#bool#)#:oiref>=360,160,117,15,1:oigroup>
+<oigroup:<oiref:cpp#Class#ValidacionCertificadoCAPI:oiref>=400,850,178,85,1:oigroup>
+<oigroup:<oiref:cpp#Member#Firma#deserializar#(#string#)#:oiref>=360,145,117,15,1:oigroup>
+<oigroup:<oiref:cpp#Class#TarjetaCAPI:oiref>=740,380,95,133,1:oigroup>
+<oigroup:<oiref:cpp#Member#Tarjeta#cerrarAlmacen#(#Almacen**#)#:oiref>=560,860,86,15,1:oigroup>
+<oigroup:<oiref:cpp#Member#FirmaAttached#serializar#(##)#:oiref>=547,603,107,15,1:oigroup>
+<oigroup:<oiref:cpp#Member#Firmador#crearFirma#(#Certificado&#)#:oiref>=20,220,105,15,1:oigroup>
+<oigroup:MemberLink#<oiref:cpp#Member#Firmador#lnkResumen:oiref>=240,200,200,200,200,290,160,290:oigroup>
+<oigroup:<oiref:cpp#Extends#FirmadorCAPI#Firmador:oiref>=280,370,280,275:oigroup>
+<oigroup:<oiref:cpp#Extends#ValidacionCertificadoLocal#ValidacionCertificado:oiref>=275,870,275,835:oigroup>
+<oigroup:<oiref:cpp#Member#Firma#serializar#(##)#:oiref>=360,130,117,15,1:oigroup>
+<oigroup:<oiref:cpp#Extends#Firma#ISerializable:oiref>=503,190,620,190,620,110:oigroup>
+<oigroup:<oiref:cpp#Extends#ValidacionCertificadoOnline#ValidacionCertificado:oiref>=198,785,240,785:oigroup>
+<oigroup:Composite#clientRole#MemberLink#<oiref:cpp#Member#Almacen#lnkCertificado1:oiref>=353,575,44,15,0,-1.0,0.0:oigroup>
+<oigroup:<oiref:cpp#Class#ISerializable:oiref>=580,10,92,100,1:oigroup>
+<oigroup:<oiref:cpp#Member#Firmador#calcularFirma#(#const BufferDinamico&#BufferDinamico&#)#:oiref>=30,260,96,15,1:oigroup>
+<oigroup:<oiref:cpp#Class#BufferDinamico:oiref>=20,80,109,148,1:oigroup>
+<oigroup:MemberLink#<oiref:cpp#Member#FirmadorCAPI#lnkCertificado:oiref>=230,485,230,570:oigroup>
+<oigroup:<oiref:cpp#Member#Firma#loadFromFile#(#string#)#:oiref>=360,175,117,15,1:oigroup>
+<oigroup:<oiref:cpp#Class#Firma:oiref>=420,170,83,115,1:oigroup>
+<oigroup:Composite#clientRole#MemberLink#<oiref:cpp#Member#Tarjeta#lnkFirmador:oiref>=393,315,44,15,0,-1.0,0.0:oigroup>
+<oigroup:<oiref:cpp#Member#FirmaDetached#deserializar#(#string#)#:oiref>=544,528,107,15,1:oigroup>
+<oigroup:<oiref:cpp#Member#AlmacenCAPI#getRevocacion#(##)#:oiref>=330,750,93,15,1:oigroup>
+<oigroup:<oiref:cpp#Extends#TarjetaCAPI#Tarjeta:oiref>=740,425,419,425:oigroup>
+<oigroup:<oiref:cpp#Extends#Firma#IPersistente:oiref>=490,170,490,110:oigroup>
+<oigroup:<oiref:cpp#Extends#CertCAPI#Certificado:oiref>=70,650,70,610,180,610:oigroup>
+<oigroup:<oiref:cpp#Member#FirmaXML#serializar#(##)#:oiref>=544,410,85,15,1:oigroup>
+<oigroup:<oiref:cpp#Class#Resumen:oiref>=80,260,80,52,1:oigroup>
+<oigroup:<oiref:cpp#Member#Firmador#validar#(#Firmable&#Firma&#Certificado&#)#:oiref>=20,230,105,15,1:oigroup>
+<oigroup:<oiref:cpp#Member#FirmadorCAPI#calcularFirma#(#const BufferDinamico&#BufferDinamico&#)#:oiref>=10,403,96,15,1:oigroup>
+<oigroup:MemberLink#<oiref:cpp#Member#Firmador#lnkIFirmable:oiref>=250,275,250,350,90,350:oigroup>
+<oigroup:Composite#clientRole#MemberLink#<oiref:cpp#Member#Tarjeta#lnkAlmacen:oiref>=398,475,44,15,0,1.0,0.0:oigroup>
+<oigroup:<oiref:cpp#Extends#Resumen#BufferDinamico:oiref>=109,260,109,228:oigroup>
+<oigroup:<oiref:cpp#Member#ValidacionCertificadoCAPI#estaRevocado#(#Certificado&#)#:oiref>=426,914,114,15,1:oigroup>
+<oigroup:<oiref:cpp#Class#Firmable:oiref>=10,330,80,70,0:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:cpp#Member#Almacen#lnkCertificado1:oiref>=266,630,43,15,0,0.0,1.0:oigroup>
+<oigroup:<oiref:cpp#Extends#AlmacenCAPI#Almacen:oiref>=520,770,400,770,400,713:oigroup>
+<oigroup:Composite#clientRole#MemberLink#<oiref:cpp#Member#FirmadorCAPI#lnkCertificado:oiref>=230,490,44,15,0,1.0,0.0:oigroup>
+<oigroup:<oiref:cpp#Extends#Firmable#BufferDinamico:oiref>=55,330,55,228:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:cpp#Member#Tarjeta#lnkFirmador:oiref>=350,220,43,15,0,0.0,1.0:oigroup>
+<oigroup:<oiref:cpp#Class#Tarjeta:oiref>=330,320,89,150,0:oigroup>
+<oigroup:<oiref:cpp#Extends#Operacion#Firmable:oiref>=130,460,130,440,70,440,70,400:oigroup>
+<oigroup:<oiref:cpp#Member#Firma#calcularOriginal#(##)#:oiref>=300,70,96,15,1:oigroup>
+<oigroup:<oiref:cpp#Member#Operacion#readData#(##)#:oiref>=113,341,79,15,1:oigroup>
+<oigroup:<oiref:cpp#Class#ValidacionCertificadoOnline:oiref>=10,750,188,85,1:oigroup>
+<oigroup:<oiref:cpp#Extends#FirmaXML#Firma:oiref>=540,620,450,620,450,285:oigroup>
+<oigroup:Composite#clientRole#MemberLink#<oiref:cpp#Member#Firmador#lnkIFirma:oiref>=353,130,44,15,0,0.0,1.0:oigroup>
+<oigroup:<oiref:cpp#Member#Firmador#resumir#(#BufferDinamico&#)#:oiref>=46,212,0,0,1:oigroup>
+<oigroup:<oiref:cpp#Class#FactoryCAPI:oiref>=330,20,98,110,1:oigroup>
+<oigroup:MemberLink#<oiref:cpp#Member#Tarjeta#lnkAlmacen:oiref>=380,470,380,580:oigroup>
+<oigroup:<oiref:cpp#Class#ValidacionCertificadoLocal:oiref>=130,870,181,70,1:oigroup>
+<oigroup:<oiref:cpp#Extends#FirmaAttached#Firma:oiref>=540,520,470,520,470,285:oigroup>
+<oigroup:<oiref:cpp#Member#FirmaAttached#deserializar#(#string#)#:oiref>=547,618,107,15,1:oigroup>
+<oigroup:<oiref:cpp#Class#ConversorDatos:oiref>=540,230,113,100,1:oigroup>
+<oigroup:<oiref:cpp#Class#Operacion:oiref>=90,460,80,70,1:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:cpp#Member#Tarjeta#lnkAlmacen:oiref>=383,575,43,15,0,-1.0,0.0:oigroup>
+<oigroup:MemberLink#<oiref:cpp#Member#Firmador#lnkIFirma:oiref>=348,130,430,130,430,170:oigroup>
+<oigroup:<oiref:cpp#Member#Firmador#crearResumen#(##)#:oiref>=71,245,0,0,1:oigroup>
+<oigroup:<oiref:cpp#Class#Documento:oiref>=0,460,82,70,1:oigroup>
+<oigroup:<oiref:cpp#Class#Almacen:oiref>=330,580,96,133,1:oigroup>
+<oigroup:<oiref:cpp#Extends#Documento#Firmable:oiref>=46,460,46,400:oigroup>
+<oigroup:MemberLink#<oiref:cpp#Member#Tarjeta#lnkFirmador:oiref>=390,320,390,240,348,240:oigroup>
+<oigroup:<oiref:cpp#Class#FirmadorCAPI:oiref>=190,370,108,115,1:oigroup>
+<oigroup:<oiref:cpp#Member#FirmaDetached#serializar#(##)#:oiref>=544,513,107,15,1:oigroup>
+<oigroup:Composite#clientRole#MemberLink#<oiref:cpp#Member#Firmador#lnkResumen:oiref>=235,215,44,15,0,0.0,-1.0:oigroup>
+<oigroup:<oiref:cpp#Member#Firma#setData#(#BYTE*#DWORD#)#:oiref>=408,227,106,15,1:oigroup>
+<oigroup:MemberLink#<oiref:cpp#Member#Firmador#lnkBufferDinamico:oiref>=240,174,129,174:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:cpp#Member#Firmador#lnkIFirma:oiref>=433,165,43,15,0,-1.0,0.0:oigroup>
+<oigroup:<oiref:cpp#Class#FirmaAttached:oiref>=540,490,110,90,0:oigroup>
+<oigroup:MemberLink#<oiref:cpp#Member#Almacen#lnkCertificado1:oiref>=350,580,350,550,290,550,290,630,261,630:oigroup>
+<oigroup:<oiref:cpp#Class#ValidacionCertificado:oiref>=240,750,144,85,1:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:cpp#Member#Firmador#lnkResumen:oiref>=165,290,43,15,0,0.0,1.0:oigroup>
+<oigroup:MemberLink#<oiref:cpp#Member#Almacen#lnkRevocacion:oiref>=347,713,347,750:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:cpp#Member#FirmadorCAPI#lnkCertificado:oiref>=233,565,43,15,0,-1.0,0.0:oigroup>
+<oigroup:<oiref:design#Class#ids2dxdh1r9wsjdh1rejlk.node:oiref>=20,0,164,59,0:oigroup>
+<oigroup:MemberLink#<oiref:cpp#Member#Firma#lnkBufferDinamico1:oiref>=350,142,279,142:oigroup>
+<oigroup:<oiref:cpp#Class#CertCAPI:oiref>=30,650,80,85,1:oigroup>
+<oigroup:<oiref:cpp#Extends#FirmaDetached#Firma:oiref>=540,430,490,430,490,285:oigroup>
+<oigroup:<oiref:cpp#Member#FirmaXML#deserializar#(#string#)#:oiref>=544,425,85,15,1:oigroup>
+<oigroup:<oiref:cpp#Extends#Firma#BufferDinamico:oiref>=460,170,460,90,129,90:oigroup>
+<oigroup:MemberLink#<oiref:cpp#Member#ValidacionCertificadoCAPI#lnkAlmacenCAPI:oiref>=549,850,549,818:oigroup>
+<oigroup:MemberLink#<oiref:cpp#Member#ValidacionCertificado#lnkCertificado:oiref>=290,750,290,670,261,670:oigroup>
+<oigroup:<oiref:cpp#Member#FirmadorCAPI#calcularOriginal#(#BufferDinamico&#Firma&#)#:oiref>=10,440,105,15,1:oigroup>
+<oigroup:<oiref:cpp#Member#FirmadorCAPI#calcularResumen#(#const BufferDinamico&#BufferDinamico&#)#:oiref>=21,449,105,15,1:oigroup>
+<oigroup:<oiref:cpp#Class#FirmaXML:oiref>=540,590,110,90,0:oigroup>
+<oigroup:<oiref:cpp#Class#FactoryPKI:oiref>=330,124,85,78,1:oigroup>
+<oigroup:<oiref:cpp#Member#Firmador#calcularResumen#(#const BufferDinamico&#Resumen&#)#:oiref>=30,270,105,15,1:oigroup>
+<oigroup:<oiref:cpp#Class#IPersistente:oiref>=480,10,89,100,1:oigroup>
+<oigroup:<oiref:cpp#Class#AlmacenCAPI:oiref>=520,700,97,118,1:oigroup>
+<oigroup:<oiref:cpp#Class#Firmador:oiref>=240,100,108,175,1:oigroup>
+<oigroup:<oiref:cpp#Class#Certificado:oiref>=180,570,81,145,1:oigroup>
+<oigroup:<oiref:cpp#Extends#ValidacionCertificadoCAPI#ValidacionCertificadoLocal:oiref>=400,907,311,907:oigroup>
+<oigroup:<oiref:cpp#Member#Tarjeta#desconectar#(##)#:oiref>=550,830,86,15,1:oigroup>
+<oigroup:<oiref:cpp#Member#ValidacionCertificadoOnline#estaRevocado#(#Certificado&#)#:oiref>=100,913,88,15,1:oigroup>
+<oigroup:MemberLink#<oiref:cpp#Member#FirmaDetached#lnkConversorDatos:oiref>=595,390,595,330:oigroup>
+<oigroup:<oiref:cpp#Member#BufferDinamico#setData#(#BYTE*#DWORD#)#:oiref>=170,210,106,15,1:oigroup>
+<oigroup:<oiref:cpp#Class#FirmaDetached:oiref>=540,390,110,90,0:oigroup>
+<oigroup:<oiref:cpp#Member#Documento#readData#(##)#:oiref>=15,343,77,15,1:oigroup>
+
+
+
+
+
+*/
+class __positions {
+}/**
+@shapeType Note
+@__modelType node
+@name Note1
+@backgroundColor 255,255,204
+@text Librería de PKI
+Versión 0.8
+JM - 30/07/2004
+*/
+class node {
+}

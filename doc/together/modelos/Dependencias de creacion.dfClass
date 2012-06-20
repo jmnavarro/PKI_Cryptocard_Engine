@@ -1,0 +1,101 @@
+package id2i0u2dxa8tvoldxahdtlw;
+
+/**
+@version 2.0
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:cpp#Class#Tarjeta:oiref><oihard>
+@__modelType reference
+@__imported
+@hideAttributes
+@hideOperations 
+*/
+class reference {
+}/**
+@__ref <oiref:cpp#Class#Firmador:oiref><oihard>
+@__modelType reference
+@__imported
+@hideOperations
+@hideAttributes 
+*/
+class reference84 {
+}/**
+@__ref <oiref:cpp#Class#Resumen:oiref><oihard>
+@__modelType reference
+@__imported
+@hideAttributes
+@hideOperations 
+*/
+class reference85 {
+}/**
+@__ref <oiref:cpp#Class#ValidacionCertificado:oiref><oihard>
+@__modelType reference
+@__imported
+@hideAttributes
+@hideOperations 
+*/
+class reference86 {
+}/**
+@__ref <oiref:cpp#Class#Firma:oiref><oihard>
+@__modelType reference
+@__imported
+@hideAttributes
+@hideOperations 
+*/
+class reference87 {
+}/**
+@__ref <oiref:cpp#Class#Certificado:oiref><oihard>
+@__modelType reference
+@__imported
+@hideAttributes
+@hideOperations 
+*/
+class reference88 {
+}/**
+@__ref <oiref:cpp#Class#Almacen:oiref><oihard>
+@__modelType reference
+@__imported
+@hideAttributes
+@hideOperations 
+*/
+class reference89 {
+}}/**
+
+@__tags
+@shapeType ClassDiagram 
+*/
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions <oigroup:MemberLink#<oiref:cpp#Member#Almacen#lnkRevocacion:oiref>=90,143,32,143,32,220:oigroup>
+<oigroup:MemberLink#<oiref:cpp#Member#Tarjeta#lnkAlmacen:oiref>=250,40,130,40,130,110:oigroup>
+<oigroup:MemberLink#<oiref:cpp#Member#Tarjeta#lnkFirmador:oiref>=330,40,450,40,450,100:oigroup>
+<oigroup:MemberLink#<oiref:cpp#Member#Firmador#lnkIFirma:oiref>=500,133,537,133,537,210:oigroup>
+<oigroup:<oiref:cpp#Class#Tarjeta:oiref>=250,10,80,52,1:oigroup>
+<oigroup:Composite#clientRole#MemberLink#<oiref:cpp#Member#Tarjeta#lnkFirmador:oiref>=334,40,52,15,0:oigroup>
+<oigroup:Composite#clientRole#MemberLink#<oiref:cpp#Member#Tarjeta#lnkAlmacen:oiref>=194,40,52,15,0:oigroup>
+<oigroup:<oiref:cpp#Class#Firma:oiref>=500,210,97,97,1:oigroup>
+<oigroup:<oiref:cpp#Class#ValidacionCertificado:oiref>=10,220,144,52,1:oigroup>
+<oigroup:<oiref:cpp#Class#Firmador:oiref>=420,100,80,52,1:oigroup>
+<oigroup:Composite#clientRole#MemberLink#<oiref:cpp#Member#Almacen#lnkCertificado1:oiref>=174,143,52,15,0:oigroup>
+<oigroup:MemberLink#<oiref:cpp#Member#Almacen#lnkCertificado1:oiref>=170,143,220,143,220,220:oigroup>
+<oigroup:<oiref:cpp#Class#Almacen:oiref>=90,110,80,52,1:oigroup>
+<oigroup:MemberLink#<oiref:cpp#Member#Firmador#lnkResumen:oiref>=420,133,377,133,377,210:oigroup>
+<oigroup:<oiref:cpp#Class#Resumen:oiref>=340,210,97,67,1:oigroup>
+<oigroup:Composite#clientRole#MemberLink#<oiref:cpp#Member#Firmador#lnkResumen:oiref>=364,133,52,15,0:oigroup>
+<oigroup:MemberLink#<oiref:cpp#Member#ValidacionCertificado#lnkCertificado:oiref>=154,246,200,246:oigroup>
+<oigroup:<oiref:cpp#Class#Certificado:oiref>=200,220,80,52,1:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:cpp#Member#Almacen#lnkCertificado1:oiref>=224,201,51,15,0:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:cpp#Member#Firmador#lnkResumen:oiref>=381,191,51,15,0:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:cpp#Member#Tarjeta#lnkAlmacen:oiref>=134,91,51,15,0:oigroup>
+<oigroup:Composite#clientRole#MemberLink#<oiref:cpp#Member#Firmador#lnkIFirma:oiref>=504,133,52,15,0:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:cpp#Member#Firmador#lnkIFirma:oiref>=541,191,51,15,0:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:cpp#Member#Tarjeta#lnkFirmador:oiref>=454,81,51,15,0:oigroup>
+*/
+class __positions {
+}

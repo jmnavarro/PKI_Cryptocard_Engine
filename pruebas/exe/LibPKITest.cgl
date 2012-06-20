@@ -1,0 +1,30 @@
+Functions called:
+ fflush (4 times)
+ free (7 times)
+ memcmp (1 times)
+ vsnprintf (96 times)
+ localtime (20 times)
+ delete (224 times)
+ strnicmp (156 times)
+ memset (59 times)
+ delete[] (1239 times)
+ new[] (1239 times)
+ memmove (552 times)
+ new (231 times)
+ SysReallocMem (2 times)
+ SysFreeMem (233 times)
+ SysGetMem (234 times)
+ calloc (1 times)
+ strlen (1493 times)
+ realloc (1 times)
+ strdup (1 times)
+ malloc (5 times)
+ memcpy (11 times)
+Resource types used:
+ object array (1239 allocs, 22 max)
+ object (231 allocs, 195 max)
+ memory block (242 allocs, 219 max)
+Modules used:
+ 00400000 06/28/2005 16:26:56
+ C:\src\$\Desarrollo\docXpert\LibPKI\pruebas\exe\LibPKITest.exe
+==========================================

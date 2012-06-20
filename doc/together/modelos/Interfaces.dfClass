@@ -1,0 +1,47 @@
+package id2mfsmdxfosrt9dxfq7t8b;
+
+/**
+@version 2.0
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:cpp#Class#IPersistente:oiref><oihard>
+@__modelType reference
+@__imported
+@backgroundColor 240,240,240
+@hideAttributes 
+*/
+class reference {
+}/**
+@__ref <oiref:cpp#Class#ISerializable:oiref><oihard>
+@__modelType reference
+@__imported
+@backgroundColor 240,240,240
+@hideAttributes*/
+class reference7 {
+}/**
+@__ref <oiref:cpp#Class#Firma:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference8 {
+}}/**
+
+@__tags
+@shapeType ClassDiagram 
+*/
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions <oigroup:<oiref:cpp#Class#Firma:oiref>=60,30,97,155,1:oigroup>
+<oigroup:<oiref:cpp#Extends#Firma#ISerializable:oiref>=157,157,280,157:oigroup>
+<oigroup:<oiref:cpp#Class#ISerializable:oiref>=280,130,92,100,1:oigroup>
+<oigroup:<oiref:cpp#Class#IPersistente:oiref>=280,20,89,100,1:oigroup>
+<oigroup:<oiref:cpp#Extends#Firma#IPersistente:oiref>=157,60,280,60:oigroup> 
+*/
+class __positions {
+}

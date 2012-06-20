@@ -1,0 +1,93 @@
+package id1y0lydn8t979jdn8yh7i0;
+
+/**
+@version 2.0
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:cpp#Class#FirmadorCAPI:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference {
+}/**
+@__ref <oiref:cpp#Class#ConversorDatos:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference1 {
+}/**
+@__ref <oiref:cpp#Class#Documento:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference2 {
+}/**
+@__ref <oiref:cpp#Class#Firma:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference3 {
+}/**
+@__ref <oiref:cpp#Class#Firmable:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference5 {
+}/**
+@__ref <oiref:cpp#Class#Firmador:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference6 {
+}/**
+@__ref <oiref:cpp#Class#IPersistente:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference7 {
+}/**
+@__ref <oiref:cpp#Class#ISerializable:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference8 {
+}/**
+@__ref <oiref:cpp#Class#Operacion:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference9 {
+}}/**
+
+@__tags
+@shapeType ClassDiagram 
+*/
+class __tags {
+}/**
+@__options option.detail = Implementation 
+*/
+class __options {
+}/**
+@__positions <oigroup:<oiref:cpp#Extends#Firma#ISerializable:oiref>=280,225,280,162,217,162,217,130:oigroup>
+<oigroup:MemberLink#<oiref:cpp#Member#Firmador#lnkIFirma:oiref>=211,168,249,168,249,225:oigroup>
+<oigroup:<oiref:cpp#Class#Documento:oiref>=426,225,111,80,1:oigroup>
+<oigroup:<oiref:cpp#Class#Firma:oiref>=239,225,192,155,1:oigroup>
+<oigroup:<oiref:cpp#Class#IPersistente:oiref>=283,20,178,110,1:oigroup>
+<oigroup:<oiref:cpp#Class#Firmador:oiref>=11,20,200,185,1:oigroup>
+<oigroup:MemberLink#<oiref:cpp#Member#Firmador#lnkIFirmable:oiref>=104,20,104,10,448,10,448,36,478,36:oigroup>
+<oigroup:<oiref:cpp#Class#ConversorDatos:oiref>=10,488,155,110,1:oigroup>
+<oigroup:<oiref:cpp#Class#Firmable:oiref>=478,20,110,95,1:oigroup>
+<oigroup:<oiref:cpp#Extends#Documento#Firmable:oiref>=467,225,467,190,533,190,533,115:oigroup>
+<oigroup:<oiref:cpp#Class#FirmadorCAPI:oiref>=11,225,200,125,1:oigroup>
+<oigroup:<oiref:cpp#Extends#Firma#IPersistente:oiref>=301,225,301,130:oigroup>
+<oigroup:<oiref:cpp#Class#Operacion:oiref>=528,225,111,80,1:oigroup>
+<oigroup:Composite#clientRole#MemberLink#<oiref:cpp#Member#Firmador#lnkIFirma:oiref>=215,168,52,15,0:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:cpp#Member#Firmador#lnkIFirma:oiref>=253,206,51,15,0:oigroup>
+<oigroup:<oiref:cpp#Class#ISerializable:oiref>=171,20,156,110,1:oigroup>
+<oigroup:<oiref:cpp#Extends#Operacion#Firmable:oiref>=568,225,568,190,533,190,533,115:oigroup>
+<oigroup:<oiref:cpp#Extends#FirmadorCAPI#Firmador:oiref>=111,225,111,205:oigroup>
+*/
+class __positions {
+}

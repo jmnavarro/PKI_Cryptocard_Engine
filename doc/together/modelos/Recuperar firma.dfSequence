@@ -1,0 +1,198 @@
+package id3rowrdn8t979jdn8zqzsy;
+
+/**
+@version 2.0
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:design#Class#id3rowrdn8t979jdn8zqzsy.node:oiref><oihard>
+@__modelType reference 
+*/
+class reference {
+}/**
+@__ref <oiref:design#Class#id3rowrdn8t979jdn8zqzsy.node27:oiref><oihard>
+@__modelType reference 
+*/
+class reference28 {
+}/**
+@__ref <oiref:design#Class#id3rowrdn8t979jdn8zqzsy.node37:oiref><oihard>
+@__modelType reference 
+*/
+class reference38 {
+}}/**
+
+@__tags
+@shapeType SequenceDiagram 
+*/
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions <oigroup:<oiref:design#Class#id3rowrdn8t979jdn8zqzsy.node27.node:oiref>=243,144,14,50,1:oigroup>
+<oigroup:<oiref:design#Class#id3rowrdn8t979jdn8zqzsy.node27.link34:oiref>=:oigroup>
+<oigroup:<oiref:design#Class#id3rowrdn8t979jdn8zqzsy.node27.link32:oiref>=257,316,257,310,297,310,297,322,266,322:oigroup>
+<oigroup:Composite#$messageInplaceEditing#<oiref:design#Class#id3rowrdn8t979jdn8zqzsy.node27.link41:oiref>=270,366,120,15,0:oigroup>
+<oigroup:<oiref:design#Class#id3rowrdn8t979jdn8zqzsy.node27.node33:oiref>=252,316,14,20,1:oigroup>
+<oigroup:Composite#$messageInplaceEditing#<oiref:design#Class#id3rowrdn8t979jdn8zqzsy.node27.link32:oiref>=270,322,197,15,0:oigroup>
+<oigroup:Composite#$messageInplaceEditing#<oiref:design#Class#id3rowrdn8t979jdn8zqzsy.node27.link35:oiref>=270,272,277,15,0:oigroup>
+<oigroup:<oiref:design#Class#id3rowrdn8t979jdn8zqzsy.node27:oiref>=200,109,101,361,1:oigroup>
+<oigroup:Composite#$messageInplaceEditing#<oiref:design#Class#id3rowrdn8t979jdn8zqzsy.node.link30:oiref>=87,221,158,15,0:oigroup>
+<oigroup:<oiref:design#Class#id3rowrdn8t979jdn8zqzsy.node:oiref>=31,30,90,440,1:oigroup>
+<oigroup:<oiref:design#Class#id3rowrdn8t979jdn8zqzsy.node.link30:oiref>=83,240,243,240:oigroup>
+<oigroup:<oiref:design#Class#id3rowrdn8t979jdn8zqzsy.node.link29:oiref>=:oigroup>
+<oigroup:<oiref:design#Class#id3rowrdn8t979jdn8zqzsy.node27.link41:oiref>=257,360,257,354,297,354,297,366,266,366:oigroup>
+<oigroup:<oiref:design#Class#id3rowrdn8t979jdn8zqzsy.node27.link35:oiref>=257,266,257,260,297,260,297,272,266,272:oigroup>
+<oigroup:Composite#$messageInplaceEditing#<oiref:design#Class#id3rowrdn8t979jdn8zqzsy.node.link:oiref>=87,125,47,15,0:oigroup>
+<oigroup:<oiref:design#Class#id3rowrdn8t979jdn8zqzsy.node27.node42:oiref>=252,360,14,20,1:oigroup>
+<oigroup:<oiref:design#Class#id3rowrdn8t979jdn8zqzsy.node27.node31:oiref>=243,240,14,150,0:oigroup>
+<oigroup:<oiref:design#Class#id3rowrdn8t979jdn8zqzsy.node27.node36:oiref>=252,266,14,20,1:oigroup>
+<oigroup:<oiref:design#Class#id3rowrdn8t979jdn8zqzsy.node.link:oiref>=83,144,200,144:oigroup>
+<oigroup:<oiref:design#Class#id3rowrdn8t979jdn8zqzsy.node37:oiref>=440,30,101,440,1:oigroup>
+*/
+class __positions {
+}/**
+@shapeType Object
+@__modelType node
+@name actor
+@stereotype actor 
+*/
+class node {
+/**
+@shapeType MessageLink
+@__modelType link
+@__ref <oiref:design#Class#id3rowrdn8t979jdn8zqzsy.node27:oiref><oihard>
+@sendingInstant 144
+@processingDuration 50
+@sequenceNumber 1
+@diagram_uniqe_name <oiref:design#Class#id3rowrdn8t979jdn8zqzsy.diagram:oiref>
+@creationMessage true
+@showReturnArrow
+@label new 
+*/
+class link {
+}/**
+@shapeType CollaborationLink
+@__modelType link
+@__ref <oiref:design#Class#id3rowrdn8t979jdn8zqzsy.node27:oiref><oihard> 
+*/
+class link29 {
+}/**
+@shapeType MessageLink
+@__modelType link
+@__ref <oiref:design#Class#id3rowrdn8t979jdn8zqzsy.node27:oiref><oihard>
+@sendingInstant 240
+@processingDuration 150
+@sequenceNumber 2
+@diagram_uniqe_name <oiref:design#Class#id3rowrdn8t979jdn8zqzsy.diagram:oiref>
+@operation <oiref:cpp#Member#Firma#loadFromFile#(#string#)#:oiref>
+@operationNameAsText 'loadFromFile(string):bool'
+@arguments "fich.ext"
+@minProcessingDuration 150
+*/
+class link30 {
+}}/**
+@shapeType Object
+@__modelType node
+@name firmaConcreta
+@created true 
+*/
+class node27 {
+/**
+@shapeType DependencyLink
+@__modelType link
+@__ref <oiref:cpp#Class#Firma:oiref><oihard> 
+*/
+class link {
+}/**
+@shapeType Activation
+@__modelType node
+@name Activation1
+@activationMessage <oiref:design#Class#id3rowrdn8t979jdn8zqzsy.node.link:oiref> 
+*/
+class node {
+}/**
+@shapeType Activation
+@__modelType node
+@name Activation2
+@activationMessage <oiref:design#Class#id3rowrdn8t979jdn8zqzsy.node.link30:oiref> 
+*/
+class node31 {
+}/**
+@shapeType MessageLink
+@__modelType link
+@__ref <oiref:design#Class#id3rowrdn8t979jdn8zqzsy.node27:oiref><oihard>
+@sendingInstant 316
+@processingDuration 20
+@sequenceNumber 2.2
+@diagram_uniqe_name <oiref:design#Class#id3rowrdn8t979jdn8zqzsy.diagram:oiref>
+@operation <oiref:cpp#Member#Firma#deserializar#(#string#)#:oiref>
+@operationNameAsText 'deserializar(string):bool'
+@arguments cadena
+@return datos
+*/
+class link32 {
+}/**
+@shapeType Activation
+@__modelType node
+@name Activation3
+@activationMessage <oiref:design#Class#id3rowrdn8t979jdn8zqzsy.node27.link32:oiref> 
+*/
+class node33 {
+}/**
+@shapeType CollaborationLink
+@__modelType link
+@__ref <oiref:design#Class#id3rowrdn8t979jdn8zqzsy.node27:oiref><oihard> 
+*/
+class link34 {
+}/**
+@shapeType MessageLink
+@__modelType link
+@__ref <oiref:design#Class#id3rowrdn8t979jdn8zqzsy.node27:oiref><oihard>
+@sendingInstant 266
+@processingDuration 20 
+@sequenceNumber 2.1
+@diagram_uniqe_name <oiref:design#Class#id3rowrdn8t979jdn8zqzsy.diagram:oiref>
+@label leer el contenido de "fich.ext" en "cadena"*/
+class link35 {
+}/**
+@shapeType Activation
+@__modelType node
+@name Activation4
+@activationMessage <oiref:design#Class#id3rowrdn8t979jdn8zqzsy.node27.link35:oiref> 
+*/
+class node36 {
+}/**
+@shapeType MessageLink
+@__modelType link
+@__ref <oiref:design#Class#id3rowrdn8t979jdn8zqzsy.node27:oiref><oihard>
+@sendingInstant 360
+@processingDuration 20 
+@sequenceNumber 2.3
+@diagram_uniqe_name <oiref:design#Class#id3rowrdn8t979jdn8zqzsy.diagram:oiref>
+@operation <oiref:cpp#Member#Firma#setData#(#BYTE*#DWORD#)#:oiref> 
+@operationNameAsText 'setData(BYTE *,DWORD):void'
+@arguments datos
+@minProcessingDuration 20
+*/
+class link41 {
+}/**
+@shapeType Activation
+@__modelType node
+@name Activation6
+@activationMessage <oiref:design#Class#id3rowrdn8t979jdn8zqzsy.node27.link41:oiref> 
+*/
+class node42 {
+}}/**
+@shapeType Object
+@__modelType node*/
+class node37 {
+/**
+@shapeType DependencyLink
+@__modelType link
+@__ref <oiref:cpp#Class#ConversorDatos:oiref><oihard> 
+*/
+class link {
+}}

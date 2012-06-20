@@ -1,0 +1,83 @@
+package id4du16dn7bdm5pdn7ii1fw;
+
+/**
+@version 2.0
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:cpp#Class#Firmable:oiref><oihard>
+@__modelType reference
+@__imported
+@__hiddenMember 
+@__hiddenMember
+@backgroundColor 255,255,245*/
+class reference37 {
+}/**
+@__ref <oiref:cpp#Class#Firma:oiref><oihard>
+@__modelType reference
+@__imported
+@__hiddenMember 
+@__hiddenMember
+@hideAttributes
+@backgroundColor 255,255,245  */
+class reference {
+}/**
+@__ref <oiref:cpp#Class#Firmador:oiref><oihard>
+@__modelType reference
+@__imported
+@backgroundColor 255,255,245 
+*/
+class reference42 {
+}/**
+@__ref <oiref:cpp#Class#Resumen:oiref><oihard>
+@__modelType reference
+@__imported
+@hideAttributes
+@hideOperations
+@backgroundColor 255,255,245 
+*/
+class reference19 {
+}/**
+@__ref <oiref:cpp#Class#BufferDinamico:oiref><oihard>
+@__modelType reference
+@__imported
+@backgroundColor 255,255,255 
+*/
+class reference22 {
+}}/**
+
+@__tags
+@shapeType ClassDiagram 
+*/
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions <oigroup:MemberLink#<oiref:cpp#Member#Firmador#lnkBufferDinamico:oiref>=370,109,219,109:oigroup>
+<oigroup:MemberLink#<oiref:cpp#Member#Firmador#lnkIFirma:oiref>=450,245,450,380,53,380:oigroup>
+<oigroup:<oiref:cpp#Class#BufferDinamico:oiref>=110,10,109,148,1:oigroup>
+<oigroup:<oiref:cpp#Class#Firma:oiref>=-30,250,83,160,1:oigroup>
+<oigroup:<oiref:cpp#Class#Firmador:oiref>=370,60,108,185,1:oigroup>
+<oigroup:MemberLink#<oiref:cpp#Member#Firmador#lnkIFirmable:oiref>=420,245,420,330,200,330:oigroup>
+<oigroup:<oiref:design#Class#id4du16dn7bdm5pdn7ii1fw.node30.link:oiref>=:oigroup>
+<oigroup:<oiref:cpp#Class#Firmable:oiref>=120,250,80,100,0:oigroup>
+<oigroup:MemberLink#<oiref:cpp#Member#Firmador#lnkResumen:oiref>=390,245,390,280,310,280:oigroup>
+<oigroup:<oiref:cpp#Class#Resumen:oiref>=230,250,80,52,1:oigroup>
+<oigroup:Composite#clientRole#MemberLink#<oiref:cpp#Member#Firmador#lnkResumen:oiref>=330,250,52,15,0:oigroup>
+<oigroup:<oiref:cpp#Extends#Firma#BufferDinamico:oiref>=35,250,35,210,160,210,160,158:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:cpp#Member#Firmador#lnkResumen:oiref>=314,280,51,15,0:oigroup>
+<oigroup:<oiref:design#Class#id4du16dn7bdm5pdn7ii1fw.node.link:oiref>=:oigroup>
+<oigroup:<oiref:design#Class#id4du16dn7bdm5pdn7ii1fw.node32.link:oiref>=:oigroup>
+<oigroup:Composite#clientRole#MemberLink#<oiref:cpp#Member#Firmador#lnkIFirma:oiref>=454,245,52,15,0:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:cpp#Member#Firmador#lnkIFirma:oiref>=57,380,51,15,0:oigroup>
+<oigroup:<oiref:cpp#Extends#Resumen#BufferDinamico:oiref>=280,250,280,210,160,210,160,158:oigroup>
+<oigroup:<oiref:cpp#Extends#Firmable#BufferDinamico:oiref>=160,250,160,158:oigroup>
+
+
+
+*/
+class __positions {
+}

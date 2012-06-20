@@ -1,0 +1,205 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value=".\exe\LibPKITest.exe"/>
+    <OBJFILES value="obj_debug\LibPKITest.obj obj_debug\BufferDinamicoTest.obj 
+      obj_debug\ConversorDatosTest.obj obj_debug\FirmaDetachedTest.obj 
+      obj_debug\TarjetaCAPITest.obj obj_debug\TarjetaCAPICeresTest.obj 
+      obj_debug\TarjetaCAPISiemensTest.obj obj_debug\TarjetaCAPIStarcosTest.obj 
+      obj_debug\TarjetaCAPIeTTest.obj obj_debug\TarjetaCLCeresTest.obj 
+      obj_debug\TarjetaCLSiemensTest.obj obj_debug\TarjetaCLStarcosTest.obj 
+      obj_debug\AlmacenCertificadoCAPITest.obj 
+      obj_debug\AlmacenCertificadoCLTest.obj obj_debug\CertCAPITest.obj 
+      obj_debug\CertCLTest.obj obj_debug\ValidacionCertificadoCAPITest.obj 
+      obj_debug\ValidacionCertificadoCLTest.obj obj_debug\FirmadorCAPITest.obj 
+      obj_debug\FirmadorCLTest.obj obj_debug\TarjetaBuilderCLTest.obj"/>
+    <RESFILES value="LibPKITest.res"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES)"/>
+    <LIBFILES value="..\..\cppunit\bin\culib.lib ..\..\cppunit\bin\TestRunnerDlg.lib 
+      ..\lib\LibPKI_debug.lib crypt32.lib"/>
+    <LIBRARIES value="bcbie.lib rtl.lib vcl.lib"/>
+    <SPARELIBS value="vcl.lib rtl.lib bcbie.lib"/>
+    <PACKAGES value="vcl.bpi rtl.bpi"/>
+    <PATHCPP value=".;src"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value="_DEBUG"/>
+    <SYSDEFINES value="NO_STRICT;_NO_VCL"/>
+    <MAINSOURCE value="LibPKITest.cpp"/>
+    <INCLUDEPATH value="&quot;C:\Archivos de programa\Borland\CBuilder6\Projects&quot;;..\src;C:\CBuilder6\Projects;h;src;$(BCB)\include;$(BCB)\include\vcl;..\..\cppunit\test\framework;..\..\cppunit\borland\TestRunner"/>
+    <LIBPATH value="&quot;C:\Archivos de programa\Borland\CBuilder6\Projects&quot;;..\src;src;$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\lib\psdk"/>
+    <WARNINGS value="-w-par"/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-I&quot;C:\Archivos de programa\Borland\CBuilder6\Projects&quot; -I..\src 
+      -IC:\CBuilder6\Projects -Ih -Isrc -I$(BCB)\include -I$(BCB)\include\vcl 
+      -I..\..\cppunit\test\framework -I..\..\cppunit\borland\TestRunner 
+      -src_suffix cpp -D_DEBUG -boa"/>
+    <CFLAG1 value="-vGc -vGt -vGd -Od -Q -Vx -Ve -X- -r- -a2 -6 -b- -k -y -v -vi- -tWC -tWM -c"/>
+    <PFLAGS value="-N2.\obj_debug -N0.\obj_debug -$Y+ -$W -$R -$Q -$O- -$A8 -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zi"/>
+    <LFLAGS value="-I.\obj_debug -D&quot;&quot; -aa -Tpe -x -Gn -Gi -v"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="cg32.lib $(LIBFILES) $(LIBRARIES) import32.lib cw32mt.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="LibPKITest.res" FORMNAME="" UNITNAME="LibPKITest.res" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\cppunit\bin\culib.lib" FORMNAME="" UNITNAME="culib.lib" CONTAINERID="LibTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\cppunit\bin\TestRunnerDlg.lib" FORMNAME="" UNITNAME="TestRunnerDlg.lib" CONTAINERID="LibTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\lib\LibPKI_debug.lib" FORMNAME="" UNITNAME="LibPKI_debug.lib" CONTAINERID="LibTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="crypt32.lib" FORMNAME="" UNITNAME="crypt32.lib" CONTAINERID="LibTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="LibPKITest.cpp" FORMNAME="" UNITNAME="LibPKITest" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="src\BufferDinamicoTest.cpp" FORMNAME="" UNITNAME="BufferDinamicoTest.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="src\ConversorDatosTest.cpp" FORMNAME="" UNITNAME="ConversorDatosTest.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="src\FirmaDetachedTest.cpp" FORMNAME="" UNITNAME="FirmaDetachedTest.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="src\TarjetaCAPITest.cpp" FORMNAME="" UNITNAME="TarjetaCAPITest" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="src\TarjetaCAPICeresTest.cpp" FORMNAME="" UNITNAME="TarjetaCAPICeresTest" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="src\TarjetaCAPISiemensTest.cpp" FORMNAME="" UNITNAME="TarjetaCAPISiemensTest" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="src\TarjetaCAPIStarcosTest.cpp" FORMNAME="" UNITNAME="TarjetaCAPIStarcosTest" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="src\TarjetaCAPIeTTest.cpp" FORMNAME="" UNITNAME="TarjetaCAPIeTTest" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="src\TarjetaCLCeresTest.cpp" FORMNAME="" UNITNAME="TarjetaCLCeresTest" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="src\TarjetaCLSiemensTest.cpp" FORMNAME="" UNITNAME="TarjetaCLSiemensTest" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="src\TarjetaCLStarcosTest.cpp" FORMNAME="" UNITNAME="TarjetaCLStarcosTest" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="src\AlmacenCertificadoCAPITest.cpp" FORMNAME="" UNITNAME="AlmacenCertificadoCAPITest.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="src\AlmacenCertificadoCLTest.cpp" FORMNAME="" UNITNAME="AlmacenCertificadoCLTest.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="src\CertCAPITest.cpp" FORMNAME="" UNITNAME="CertCAPITest.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="src\CertCLTest.cpp" FORMNAME="" UNITNAME="CertCLTest" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="src\ValidacionCertificadoCAPITest.cpp" FORMNAME="" UNITNAME="ValidacionCertificadoCAPITest.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="src\ValidacionCertificadoCLTest.cpp" FORMNAME="" UNITNAME="ValidacionCertificadoCLTest" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="src\FirmadorCAPITest.cpp" FORMNAME="" UNITNAME="FirmadorCAPITest.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="src\FirmadorCLTest.cpp" FORMNAME="" UNITNAME="FirmadorCLTest" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="src\TarjetaBuilderCLTest.cpp" FORMNAME="" UNITNAME="TarjetaBuilderCLTest" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=0
+AutoIncBuild=0
+MajorVer=1
+MinorVer=0
+Release=0
+Build=0
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=3082
+CodePage=1252
+
+[Version Info Keys]
+CompanyName=
+FileDescription=
+FileVersion=1.0.0.0
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=1.0.0.0
+Comments=
+
+[HistoryLists\hlIncludePath]
+Count=16
+Item0=C:\Archivos de programa\Borland\CBuilder6\Projects;..\src;C:\CBuilder6\Projects;h;src;$(BCB)\include;$(BCB)\include\vcl;..\..\cppunit\test\framework;..\..\cppunit\borland\TestRunner
+Item1=..\src;C:\CBuilder6\Projects;h;src;$(BCB)\include;$(BCB)\include\vcl;..\..\cppunit\test\framework;..\..\cppunit\borland\TestRunner
+Item2=C:\CBuilder6\Projects;h;src;$(BCB)\include;$(BCB)\include\vcl;..\..\cppunit\test\framework;..\..\cppunit\borland\TestRunner
+Item3=h;src;$(BCB)\include;$(BCB)\include\vcl;..\..\cppunit\test\framework;..\..\cppunit\borland\TestRunner
+Item4=..\h;src;$(BCB)\include;$(BCB)\include\vcl;..\..\cppunit\test\framework;..\..\cppunit\borland\TestRunner
+Item5=src;$(BCB)\include;$(BCB)\include\vcl;..\..\cppunit\test\framework;..\..\cppunit\borland\TestRunner
+Item6=C:\CBuilder6\Projects;src;Test;$(BCB)\include;$(BCB)\include\vcl;C:\src\cppunit\test\framework;C:\src\cppunit\borland\TestRunner
+Item7=src;Test;C:\CBuilder6\Projects;$(BCB)\include;$(BCB)\include\vcl;C:\src\cppunit\test\framework;C:\src\cppunit\borland\TestRunner
+Item8=Test;C:\CBuilder6\Projects;$(BCB)\include;$(BCB)\include\vcl;C:\src\cppunit\test\framework;C:\src\cppunit\borland\TestRunner
+Item9=Test;C:\CBuilder6\Projects;$(BCB)\include;$(BCB)\include\vcl;C:\src\cppunit\test\framework
+Item10=Test;C:\CBuilder6\Projects;Ejemplos;$(BCB)\include;$(BCB)\include\vcl
+Item11=Ejemplos;$(BCB)\include;$(BCB)\include\vcl
+Item12=Ejemplos;C:\src\LibCorreo\Ejemplos;$(BCB)\include;$(BCB)\include\vcl
+Item13=C:\src\LibCorreo\Ejemplos;$(BCB)\include;$(BCB)\include\vcl
+Item14=C:\CBuilder6\Projects;C:\src\LibCorreo\Ejemplos;C:\src\LibCorreo;$(BCB)\include;$(BCB)\include\vcl
+Item15=C:\src\LibCorreo;$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=15
+Item0=C:\Archivos de programa\Borland\CBuilder6\Projects;..\src;src;$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\lib\psdk
+Item1=..\src;src;$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\lib\psdk
+Item2=..\src;C:\CBuilder6\Projects;c:\cbuilder6\lib\debug;src;$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\lib\psdk
+Item3=C:\CBuilder6\Projects;c:\cbuilder6\lib\debug;src;$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\lib\psdk
+Item4=c:\cbuilder6\lib\debug;src;$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\lib\psdk
+Item5=$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\lib\psdk
+Item6=C:\CBuilder6\Projects;c:\cbuilder6\lib\debug;src;Test;Ejemplos;$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\lib\psdk
+Item7=src;Test;Ejemplos;$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\lib\psdk
+Item8=c:\cbuilder6\lib\debug;src;Test;C:\CBuilder6\Projects;Ejemplos;$(BCB)\lib\obj;$(BCB)\lib
+Item9=src;Test;C:\CBuilder6\Projects;Ejemplos;$(BCB)\lib\obj;$(BCB)\lib
+Item10=Test;C:\CBuilder6\Projects;Ejemplos;$(BCB)\lib\obj;$(BCB)\lib
+Item11=Ejemplos;$(BCB)\lib\obj;$(BCB)\lib
+Item12=$(BCB)\lib\obj;$(BCB)\lib
+Item13=C:\CBuilder6\Projects;C:\src\LibCorreo\Ejemplos;C:\src\LibCorreo;$(BCB)\lib\obj;$(BCB)\lib
+Item14=C:\src\LibCorreo;$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=1
+Item0=$(BCB)\source\vcl
+
+[HistoryLists\hlConditionals]
+Count=3
+Item0=_DEBUG
+Item1=_DEBUG;USAR_TARJETA_ETOKEN;USAR_CERTIFICADO_CAMERFIRMA;USAR_CAPI
+Item2=_DEBUG;USAR_TARJETA_ETOKEN;USAR_CERTIFICADO_CAMERFIRMA
+
+[HistoryLists\hlIntOutputDir]
+Count=2
+Item0=.\obj_debug
+Item1=.\ejemplos\obj
+
+[HistoryLists\hlFinalOutputDir]
+Count=5
+Item0=.\exe\
+Item1=.\bin\
+Item2=.\bin
+Item3=.\ejemplos\exe\
+Item4=.\ejemplos\exe
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=1
+LinkDebugVcl=0
+LinkCGLIB=1
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+  </IDEOPTIONS>
+</PROJECT>

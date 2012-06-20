@@ -1,0 +1,39 @@
+package id3qtx8dxfosrt9dxfrenfl;
+
+/**
+@version 2.0
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:cpp#Class#Almacen:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference {
+}/**
+@__ref <oiref:cpp#Class#Certificado:oiref><oihard>
+@__modelType reference
+@__imported
+@hideOperations 
+*/
+class reference20 {
+}}/**
+
+@__tags
+@shapeType ClassDiagram 
+*/
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions <oigroup:Composite#clientRole#MemberLink#<oiref:cpp#Member#Almacen#lnkCertificado1:oiref>=140,106,52,15,0:oigroup>
+<oigroup:<oiref:cpp#Class#Almacen:oiref>=40,40,96,133,1:oigroup>
+<oigroup:MemberLink#<oiref:cpp#Member#Almacen#lnkCertificado1:oiref>=136,106,290,106:oigroup>
+<oigroup:<oiref:cpp#Class#Certificado:oiref>=290,40,81,145,1:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:cpp#Member#Almacen#lnkCertificado1:oiref>=235,106,51,15,0:oigroup> 
+*/
+class __positions {
+}

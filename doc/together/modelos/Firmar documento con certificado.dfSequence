@@ -1,0 +1,461 @@
+package id1esnhdnpnznh4dnpphyxn;
+
+/**
+@version 2.0
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:design#Class#id1esnhdnpnznh4dnpphyxn.node:oiref><oihard>
+@__modelType reference 
+*/
+class reference {
+}/**
+@__ref <oiref:design#Class#id1esnhdnpnznh4dnpphyxn.node1:oiref><oihard>
+@__modelType reference 
+*/
+class reference2 {
+}/**
+@__ref <oiref:design#Class#id1esnhdnpnznh4dnpphyxn.node3:oiref><oihard>
+@__modelType reference 
+*/
+class reference4 {
+}/**
+@__ref <oiref:design#Class#id1esnhdnpnznh4dnpphyxn.node7:oiref><oihard>
+@__modelType reference 
+*/
+class reference8 {
+}/**
+@__ref <oiref:design#Class#id1esnhdnpnznh4dnpphyxn.node5:oiref><oihard>
+@__modelType reference 
+*/
+class reference6 {
+}/**
+@__ref <oiref:design#Class#id1esnhdnpnznh4dnpphyxn.node6:oiref><oihard>
+@__modelType reference 
+*/
+class reference7 {
+}/**
+@__ref <oiref:design#Class#id1esnhdnpnznh4dnpphyxn.node25:oiref><oihard>
+@__modelType reference 
+*/
+class reference26 {
+}}/**
+
+@__tags
+@shapeType SequenceDiagram 
+*/
+class __tags {
+}/**
+@__options option.detail = Design
+option.formatting = Java 
+*/
+class __options {
+}/**
+@__positions 
+
+
+<oigroup:Composite#$messageInplaceEditing#<oiref:design#Class#id1esnhdnpnznh4dnpphyxn.node3.link10:oiref>=321,456,177,15,0:oigroup>
+<oigroup:Composite#$messageInplaceEditing#<oiref:design#Class#id1esnhdnpnznh4dnpphyxn.node3.link2:oiref>=321,272,238,15,0:oigroup>
+<oigroup:<oiref:design#Class#id1esnhdnpnznh4dnpphyxn.node3.link10:oiref>=308,450,308,444,348,444,348,456,317,456:oigroup>
+<oigroup:<oiref:design#Class#id1esnhdnpnznh4dnpphyxn.node3.node4:oiref>=303,266,14,114,1:oigroup>
+<oigroup:Composite#$messageInplaceEditing#<oiref:design#Class#id1esnhdnpnznh4dnpphyxn.node.link1:oiref>=86,111,262,15,0:oigroup>
+<oigroup:<oiref:design#Class#id1esnhdnpnznh4dnpphyxn.node3.node11:oiref>=303,450,14,124,1:oigroup>
+<oigroup:Composite#$messageInplaceEditing#<oiref:design#Class#id1esnhdnpnznh4dnpphyxn.node3.link12:oiref>=321,495,69,15,0:oigroup>
+<oigroup:<oiref:design#Class#id1esnhdnpnznh4dnpphyxn.node7.node23:oiref>=424,590,14,20,1:oigroup>
+<oigroup:<oiref:design#Class#id1esnhdnpnznh4dnpphyxn.node.link16:oiref>=:oigroup>
+<oigroup:<oiref:design#Class#id1esnhdnpnznh4dnpphyxn.node3.link12:oiref>=317,514,386,514:oigroup>
+<oigroup:<oiref:design#Class#id1esnhdnpnznh4dnpphyxn.node3.link7:oiref>=317,320,612,320:oigroup>
+<oigroup:<oiref:design#Class#id1esnhdnpnznh4dnpphyxn.node5.node10:oiref>=650,620,14,20,1:oigroup>
+<oigroup:<oiref:design#Class#id1esnhdnpnznh4dnpphyxn.node3.link8:oiref>=:oigroup>
+<oigroup:<oiref:design#Class#id1esnhdnpnznh4dnpphyxn.node5.node:oiref>=650,320,14,50,0:oigroup>
+<oigroup:<oiref:design#Class#id1esnhdnpnznh4dnpphyxn.node.link1:oiref>=82,130,181,130:oigroup>
+<oigroup:<oiref:design#Class#id1esnhdnpnznh4dnpphyxn.node6.node5:oiref>=181,130,14,80,1:oigroup>
+<oigroup:<oiref:design#Class#id1esnhdnpnznh4dnpphyxn.node3.link9:oiref>=308,620,650,620:oigroup>
+<oigroup:<oiref:design#Class#id1esnhdnpnznh4dnpphyxn.node25:oiref>=499,115,90,615,1:oigroup>
+<oigroup:Composite#$messageInplaceEditing#<oiref:design#Class#id1esnhdnpnznh4dnpphyxn.node3.link15:oiref>=321,426,300,15,0:oigroup>
+<oigroup:Composite#$messageInplaceEditing#<oiref:design#Class#id1esnhdnpnznh4dnpphyxn.node3.link7:oiref>=321,301,69,15,0:oigroup>
+<oigroup:<oiref:design#Class#id1esnhdnpnznh4dnpphyxn.node3.link15:oiref>=308,420,308,414,348,414,348,426,317,426:oigroup>
+<oigroup:<oiref:design#Class#id1esnhdnpnznh4dnpphyxn.node1:oiref>=725,30,90,700,0:oigroup>
+<oigroup:<oiref:design#Class#id1esnhdnpnznh4dnpphyxn.node3.node16:oiref>=303,420,14,20,1:oigroup>
+<oigroup:<oiref:design#Class#id1esnhdnpnznh4dnpphyxn.node3.link21:oiref>=:oigroup>
+<oigroup:<oiref:design#Class#id1esnhdnpnznh4dnpphyxn.node3.link17:oiref>=:oigroup>
+<oigroup:Composite#$messageInplaceEditing#<oiref:design#Class#id1esnhdnpnznh4dnpphyxn.node3.link9:oiref>=312,601,70,15,0:oigroup>
+<oigroup:Composite#$messageInplaceEditing#<oiref:design#Class#id1esnhdnpnznh4dnpphyxn.node3.link22:oiref>=312,571,143,15,0:oigroup>
+<oigroup:Composite#$messageInplaceEditing#<oiref:design#Class#id1esnhdnpnznh4dnpphyxn.node.link:oiref>=86,221,209,15,0:oigroup>
+<oigroup:<oiref:design#Class#id1esnhdnpnznh4dnpphyxn.node.link:oiref>=82,240,294,240:oigroup>
+<oigroup:<oiref:design#Class#id1esnhdnpnznh4dnpphyxn.node3.link22:oiref>=308,590,424,590:oigroup>
+<oigroup:<oiref:design#Class#id1esnhdnpnznh4dnpphyxn.node3:oiref>=256,30,90,700,1:oigroup>
+<oigroup:<oiref:design#Class#id1esnhdnpnznh4dnpphyxn.node7.node13:oiref>=424,514,14,50,1:oigroup>
+<oigroup:<oiref:design#Class#id1esnhdnpnznh4dnpphyxn.node3.link1:oiref>=308,390,308,384,348,384,348,396,317,396:oigroup>
+<oigroup:Composite#$messageInplaceEditing#<oiref:design#Class#id1esnhdnpnznh4dnpphyxn.node6.link27:oiref>=199,131,58,15,0:oigroup>
+<oigroup:<oiref:design#Class#id1esnhdnpnznh4dnpphyxn.node:oiref>=30,30,90,700,1:oigroup>
+<oigroup:<oiref:design#Class#id1esnhdnpnznh4dnpphyxn.node3.link2:oiref>=308,266,308,260,348,260,348,272,317,272:oigroup>
+<oigroup:<oiref:design#Class#id1esnhdnpnznh4dnpphyxn.node6.link27:oiref>=195,150,499,150:oigroup>
+<oigroup:<oiref:design#Class#id1esnhdnpnznh4dnpphyxn.node5:oiref>=612,285,90,363,0:oigroup>
+<oigroup:<oiref:design#Class#id1esnhdnpnznh4dnpphyxn.node.link12:oiref>=:oigroup>
+<oigroup:<oiref:design#Class#id1esnhdnpnznh4dnpphyxn.node3.node2:oiref>=303,390,14,20,1:oigroup>
+<oigroup:<oiref:design#Class#id1esnhdnpnznh4dnpphyxn.node3.node:oiref>=294,240,14,410,1:oigroup>
+<oigroup:<oiref:design#Class#id1esnhdnpnznh4dnpphyxn.node6:oiref>=143,30,90,700,1:oigroup>
+<oigroup:<oiref:design#Class#id1esnhdnpnznh4dnpphyxn.node6.link28:oiref>=:oigroup>
+<oigroup:Composite#$messageInplaceEditing#<oiref:design#Class#id1esnhdnpnznh4dnpphyxn.node3.link1:oiref>=321,396,342,15,0:oigroup>
+<oigroup:<oiref:design#Class#id1esnhdnpnznh4dnpphyxn.node25.node:oiref>=537,150,14,50,1:oigroup>
+<oigroup:<oiref:design#Class#id1esnhdnpnznh4dnpphyxn.node7:oiref>=386,479,90,251,0:oigroup>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
+class __positions {
+}/**
+@shapeType Object
+@__modelType node
+@name Actor
+@stereotype actor 
+*/
+class node {
+/**
+@shapeType MessageLink
+@__modelType link
+@__ref <oiref:design#Class#id1esnhdnpnznh4dnpphyxn.node3:oiref><oihard>
+@sendingInstant 240
+@processingDuration 410
+@sequenceNumber 2
+@diagram_uniqe_name <oiref:design#Class#id1esnhdnpnznh4dnpphyxn.diagram:oiref>
+@operation <oiref:cpp#Member#Firmador#firmar#(#Firmable&#Certificado&#)#:oiref>
+@operationNameAsText 'firmar(Firmable):IFirma'
+@showReturnArrow
+@return Firma
+@arguments doc,cert
+*/
+class link {
+}/**
+@shapeType CollaborationLink
+@__modelType link
+@__ref <oiref:design#Class#id1esnhdnpnznh4dnpphyxn.node3:oiref><oihard> 
+*/
+class link16 {
+}/**
+@shapeType MessageLink
+@__modelType link
+@__ref <oiref:design#Class#id1esnhdnpnznh4dnpphyxn.node6:oiref><oihard>
+@sendingInstant 130
+@processingDuration 80
+@sequenceNumber 1
+@diagram_uniqe_name <oiref:design#Class#id1esnhdnpnznh4dnpphyxn.diagram:oiref>
+@operation <oiref:cpp#Member#Almacen#loadCertificado#(##)#:oiref> 
+@operationNameAsText 'loadCertificado():Certificado *'
+@arguments clave
+@showReturnArrow
+@return cert
+*/
+class link1 {
+}/**
+@shapeType CollaborationLink
+@__modelType link
+@__ref <oiref:design#Class#id1esnhdnpnznh4dnpphyxn.node6:oiref><oihard> 
+*/
+class link12 {
+}}/**
+@shapeType Object
+@__modelType node
+@name doc*/
+class node1 {
+/**
+@shapeType DependencyLink
+@__modelType link
+@__ref <oiref:cpp#Class#Firmable:oiref><oihard>
+*/
+class link {
+}}/**
+@shapeType Object
+@__modelType node
+@name */
+class node3 {
+/**
+@shapeType DependencyLink
+@__modelType link
+@__ref <oiref:cpp#Class#Firmador:oiref><oihard>
+*/
+class link {
+}/**
+@shapeType Activation
+@__modelType node
+@name Activation1
+@activationMessage <oiref:design#Class#id1esnhdnpnznh4dnpphyxn.node.link:oiref> 
+*/
+class node {
+}/**
+@shapeType MessageLink
+@__modelType link
+@__ref <oiref:design#Class#id1esnhdnpnznh4dnpphyxn.node3:oiref><oihard>
+@sendingInstant 420
+@processingDuration 20
+@sequenceNumber 2.3
+@diagram_uniqe_name <oiref:design#Class#id1esnhdnpnznh4dnpphyxn.diagram:oiref>
+@operation <oiref:cpp#Member#Firmador#calcularFirma#(#const BufferDinamico&#BufferDinamico&#)#:oiref>
+@operationNameAsText 'calcularFirma(const BufferDinamico &,BufferDinamico &):bool'
+@arguments hash, buffFirma
+@return firmaOK
+@minProcessingDuration 20
+*/
+class link15 {
+}/**
+@shapeType Activation
+@__modelType node
+@name Activation2
+@activationMessage <oiref:design#Class#id1esnhdnpnznh4dnpphyxn.node3.link15:oiref> 
+*/
+class node16 {
+}/**
+@shapeType CollaborationLink
+@__modelType link
+@__ref <oiref:design#Class#id1esnhdnpnznh4dnpphyxn.node3:oiref><oihard> 
+*/
+class link17 {
+}/**
+@shapeType CollaborationLink
+@__modelType link
+@__ref <oiref:design#Class#id1esnhdnpnznh4dnpphyxn.node7:oiref><oihard> 
+*/
+class link21 {
+}/**
+@shapeType MessageLink
+@__modelType link
+@__ref <oiref:design#Class#id1esnhdnpnznh4dnpphyxn.node7:oiref><oihard>
+@sendingInstant 590
+@processingDuration 20 
+@sequenceNumber 2.5
+@diagram_uniqe_name <oiref:design#Class#id1esnhdnpnznh4dnpphyxn.diagram:oiref>
+@label setData(buffFirma)
+*/
+class link22 {
+}/**
+@shapeType MessageLink
+@__modelType link
+@__ref <oiref:design#Class#id1esnhdnpnznh4dnpphyxn.node3:oiref><oihard>
+@sendingInstant 390
+@processingDuration 20 
+@sequenceNumber 2.2
+@diagram_uniqe_name <oiref:design#Class#id1esnhdnpnznh4dnpphyxn.diagram:oiref>
+@operation <oiref:cpp#Member#Firmador#calcularResumen#(#const BufferDinamico&#Resumen&#)#:oiref>
+@operationNameAsText 'calcularResumen(const BufferDinamico &,BufferDinamico &):bool'
+@arguments doc.getData(), hash
+@return hashOK
+@minProcessingDuration 20*/
+class link1 {
+}/**
+@shapeType Activation
+@__modelType node
+@name Activation3
+@activationMessage <oiref:design#Class#id1esnhdnpnznh4dnpphyxn.node3.link1:oiref> 
+*/
+class node2 {
+}/**
+@shapeType MessageLink
+@__modelType link
+@__ref <oiref:design#Class#id1esnhdnpnznh4dnpphyxn.node3:oiref><oihard>
+@sendingInstant 450
+@processingDuration 124
+@sequenceNumber 2.4
+@diagram_uniqe_name <oiref:design#Class#id1esnhdnpnznh4dnpphyxn.diagram:oiref>
+@operation <oiref:cpp#Member#Firmador#crearFirma#(#Certificado&#)#:oiref>
+@operationNameAsText 'crearFirma():Firma *'
+@arguments cert
+@minProcessingDuration 124
+*/
+class link10 {
+}/**
+@shapeType MessageLink
+@__modelType link
+@__ref <oiref:design#Class#id1esnhdnpnznh4dnpphyxn.node7:oiref><oihard>
+@sendingInstant 514
+@processingDuration 50
+@sequenceNumber 2.4.1
+@diagram_uniqe_name <oiref:design#Class#id1esnhdnpnznh4dnpphyxn.diagram:oiref>
+@minProcessingDuration 20
+@creationMessage true
+@showReturnArrow
+@label new
+*/
+class link12 {
+}/**
+@shapeType MessageLink
+@__modelType link
+@__ref <oiref:design#Class#id1esnhdnpnznh4dnpphyxn.node3:oiref><oihard>
+@sendingInstant 266
+@processingDuration 114
+@sequenceNumber 2.1
+@diagram_uniqe_name <oiref:design#Class#id1esnhdnpnznh4dnpphyxn.diagram:oiref>
+@operation <oiref:cpp#Member#Firmador#crearResumen#(##)#:oiref>
+@operationNameAsText 'crearResumen():Resumen *'
+@return hash
+*/
+class link2 {
+}/**
+@shapeType Activation
+@__modelType node
+@name Activation4
+@activationMessage <oiref:design#Class#id1esnhdnpnznh4dnpphyxn.node3.link2:oiref> 
+*/
+class node4 {
+}/**
+@shapeType MessageLink
+@__modelType link
+@__ref <oiref:design#Class#id1esnhdnpnznh4dnpphyxn.node5:oiref><oihard>
+@sendingInstant 320
+@processingDuration 50
+@sequenceNumber 2.1.1
+@diagram_uniqe_name <oiref:design#Class#id1esnhdnpnznh4dnpphyxn.diagram:oiref>
+@label new
+@creationMessage true
+@showReturnArrow
+@minProcessingDuration 40
+*/
+class link7 {
+}/**
+@shapeType CollaborationLink
+@__modelType link
+@__ref <oiref:design#Class#id1esnhdnpnznh4dnpphyxn.node5:oiref><oihard> 
+*/
+class link8 {
+}/**
+@shapeType MessageLink
+@__modelType link
+@__ref <oiref:design#Class#id1esnhdnpnznh4dnpphyxn.node5:oiref><oihard>
+@sendingInstant 620
+@processingDuration 20 
+@sequenceNumber 2.6
+@diagram_uniqe_name <oiref:design#Class#id1esnhdnpnznh4dnpphyxn.diagram:oiref>
+@destructionMessage true
+@label delete
+*/
+class link9 {
+}/**
+@shapeType Activation
+@__modelType node
+@name Activation7
+@activationMessage <oiref:design#Class#id1esnhdnpnznh4dnpphyxn.node3.link10:oiref> */
+class node11 {
+}}/**
+@shapeType Object
+@__modelType node
+@name firma
+@created true*/
+class node7 {
+/**
+@shapeType DependencyLink
+@__modelType link
+@__ref <oiref:cpp#Class#Firma:oiref><oihard>
+*/
+class link {
+}/**
+@shapeType Activation
+@__modelType node
+@name Activation5
+@activationMessage <oiref:design#Class#id1esnhdnpnznh4dnpphyxn.node3.link22:oiref> 
+*/
+class node23 {
+}/**
+@shapeType Activation
+@__modelType node
+@name Activation8
+@activationMessage <oiref:design#Class#id1esnhdnpnznh4dnpphyxn.node3.link12:oiref> 
+*/
+class node13 {
+}}/**
+@shapeType Object
+@__modelType node
+@name hash
+@created true
+@destroyed true 
+*/
+class node5 {
+/**
+@shapeType DependencyLink
+@__modelType link
+@__ref <oiref:cpp#Class#Resumen:oiref><oihard> 
+*/
+class link {
+}/**
+@shapeType Activation
+@__modelType node
+@name Activation6
+@activationMessage <oiref:design#Class#id1esnhdnpnznh4dnpphyxn.node3.link7:oiref> 
+*/
+class node {
+}/**
+@shapeType Activation
+@__modelType node
+@name Activation9
+@activationMessage <oiref:design#Class#id1esnhdnpnznh4dnpphyxn.node3.link9:oiref> 
+*/
+class node10 {
+}}/**
+@shapeType Object
+@__modelType node
+@name */
+class node6 {
+/**
+@shapeType DependencyLink
+@__modelType link
+@__ref <oiref:cpp#Class#Almacen:oiref><oihard> 
+*/
+class link {
+}/**
+@shapeType Activation
+@__modelType node
+@name Activation10
+@activationMessage <oiref:design#Class#id1esnhdnpnznh4dnpphyxn.node.link1:oiref> 
+@diagram_uniqe_name <oiref:design#Class#id1esnhdnpnznh4dnpphyxn.diagram:oiref>
+*/
+class node5 {
+}/**
+@shapeType MessageLink
+@__modelType link
+@__ref <oiref:design#Class#id1esnhdnpnznh4dnpphyxn.node25:oiref><oihard>
+@sendingInstant 150
+@processingDuration 50
+@sequenceNumber 1.1
+@diagram_uniqe_name <oiref:design#Class#id1esnhdnpnznh4dnpphyxn.diagram:oiref>
+@creationMessage true
+@label new
+*/
+class link27 {
+}/**
+@shapeType CollaborationLink
+@__modelType link
+@__ref <oiref:design#Class#id1esnhdnpnznh4dnpphyxn.node25:oiref><oihard> 
+*/
+class link28 {
+}}/**
+@shapeType Object
+@__modelType node
+@name 
+@created true 
+*/
+class node25 {
+/**
+@shapeType DependencyLink
+@__modelType link
+@__ref <oiref:cpp#Class#Certificado:oiref><oihard> 
+*/
+class link {
+}/**
+@shapeType Activation
+@__modelType node
+@name Activation11
+@activationMessage <oiref:design#Class#id1esnhdnpnznh4dnpphyxn.node6.link27:oiref> 
+*/
+class node {
+}}
